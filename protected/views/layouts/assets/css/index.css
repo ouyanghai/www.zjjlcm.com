@@ -774,3 +774,17 @@
 .izl-rmenu .btn-phone .phone{background-color:#ff811b; position:absolute; width:160px; left:-160px; top:0px; line-height:73px; color:#FFF; font-size:18px; text-align:center; display:none;}
 .izl-rmenu .btn-top{background:url(http://www.yncits006.com/images/r_top.png) 0px 0px no-repeat; background-color:#666666; display:none;}
 .izl-rmenu .btn-top:hover{background-color:#444;}
+#www_zzjs_net{width:220px;height:130px;text-align:center;}
+*html .bottomcut{position:absolute}
+.bottomcut{position:fixed;bottom:0;left:0;z-index:9999;width:100%;height:52px;background:url(http://www.yncits006.com/bottom_server_bg.jpg);_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight)}
+.bottomcut ul{width:775px;height:52px;background:url(http://www.yncits006.com/bottom_server1.jpg) no-repeat;margin:0 auto}
+.bottomcut ul .a1 a,.bottomcut ul .a2 a{display:block;float:right;width:134px;height:33px}
+.bottomcut ul .a1 a{margin:11px 16px 0 0}
+.bottomcut ul .a2 a{margin:11px 13px 0 0}
+.bottomcut2{position:fixed;bottom:0;left:0;z-index:9999;width:100%;height:52px;background:url(bottom_server_bg.jpg);_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight)}
+.bottomcut2 ul{width:775px;height:52px;background:url(http://www.yncits006.com/bottom_server2.jpg) no-repeat;margin:0 auto}
+.bottomcut2 ul .a1 a,.bottomcut2 ul .a2 a{display:block;float:right;width:134px;height:33px}
+.bottomcut2 ul .a1 a{margin:11px 16px 0 0}
+.bottomcut2 ul .a2 a{margin:11px 13px 0 0}
+li {list-style-type:none;}
+#www_zzjs_net{width:220px;height:180px;text-align:center;}

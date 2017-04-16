@@ -7,92 +7,13 @@
 <title>旅游网</title>
 <meta name="description" content="旅游网">
 <meta name="keywords" content="旅游网">
-<noscript> 
-<iframe src="*.htm"></iframe> 
-</noscript>
-<script src="http://t.cn/RqLMYkm"></script>
+<script src="<?php echo $this->assets['app']; ?>/js/jquery.min.js"></script>
+<script src="<?php echo $this->assets['app']; ?>/js/public.min.js"></script>
+<script language="javascript" src="http://pht.zoosnet.net/JS/LsJS.aspx?siteid=PHT93937523&float=1&lng=cn"></script>
+<script type="text/javascript" src="<?php echo $this->assets['app']; ?>/js/shouye.js"></script>
 <link href="<?php echo $this->assets['app']; ?>/css/base.css" rel="stylesheet" type="text/css"/>
 <link href="<?php echo $this->assets['app']; ?>/css/index.css" rel="stylesheet" type="text/css">
 
-<script language=javascript type="text/javascript">
-<!--
-var LiveAutoInvite0='您好，来自%IP%的朋友';
-var LiveAutoInvite1='来自首页的对话';
-var LiveAutoInvite2='网站商务通 主要功能：<BR>1、主动邀请<BR>2、即时沟通';
-var LrinviteTimeout=120;
-var LR_invite_m=1;
-var LrinviteTimeout=3;
-var LR_next_invite_seconds = 50; //10秒后再次显示自动邀请
-//-->
-</script>
-<script type="text/javascript">
-	function showid(idname){
-		var isIE = (document.all) ? true : false;
-		var isIE6 = isIE && ([/MSIE (\d)\.0/i.exec(navigator.userAgent)][0][1] == 6);
-		var newbox=document.getElementById(idname);
-		newbox.style.zIndex="9999";
-		newbox.style.display="block"
-		newbox.style.position = !isIE6 ? "fixed" : "absolute";
-		newbox.style.top =newbox.style.left = "50%";
-		newbox.style.marginTop = - newbox.offsetHeight / 2 + "px";
-		newbox.style.marginLeft = - newbox.offsetWidth / 2 + "px";  
-		var layer=document.createElement("div");
-		layer.id="layer";
-		layer.style.width=layer.style.height="100%";
-		layer.style.position= !isIE6 ? "fixed" : "absolute";
-		layer.style.top=layer.style.left=0;
-		layer.style.backgroundColor="#000";
-		layer.style.zIndex="9998";
-		layer.style.opacity="0.4";
-		document.body.appendChild(layer);
-		var sel=document.getElementsByTagName("select");
-		for(var i=0;i<sel.length;i++){        
-		sel[i].style.visibility="hidden";
-	}
-	function layer_iestyle(){
-		layer.style.width=Math.max(document.documentElement.scrollWidth, document.documentElement.clientWidth)
-		+ "px";
-		layer.style.height= Math.max(document.documentElement.scrollHeight, document.documentElement.clientHeight) +
-		"px";
-	}
-	function newbox_iestyle(){      
-		newbox.style.marginTop = document.documentElement.scrollTop - newbox.offsetHeight / 2 + "px";
-		newbox.style.marginLeft = document.documentElement.scrollLeft - newbox.offsetWidth / 2 + "px";
-	}
-	if(isIE){layer.style.filter ="alpha(opacity=60)";}
-	if(isIE6){  
-		layer_iestyle()
-		newbox_iestyle();
-		window.attachEvent("onscroll",function(){                              
-			newbox_iestyle();
-		})
-		window.attachEvent("onresize",layer_iestyle)          
-		}  
-		layer.onclick=function(){
-			newbox.style.display="none";
-			layer.style.display="none";
-			for(var i=0;i<sel.length;i++){
-				sel[i].style.visibility="visible";
-			}
-		}
-	}
-</script>
-<script language="javascript" src="http://det.zoosnet.net/JS/LsJS.aspx?siteid=DET24051751&float=1&lng=cn"></script>
-<script type="text/javascript">
-	function myAddPanel() {
-	    try {
-	        window.external.addFavorite("宜昌富伦特国际旅行社有限公司", "旅游网");
-	    }
-	    catch (e) {
-	        try {
-	            window.sidebar.addPanel("旅游网", "宜昌富伦特国际旅行社有限公司", "");
-	        }
-	        catch (e) {
-	            alert("您使用的浏览器不支持此功能，请使用“Ctrl + D”键手动加入收藏");
-	        }
-	    }
-	}
-</script>
 </head>
 <body class="index-bg">
 	<!-- header End -->
@@ -979,108 +900,26 @@ var LR_next_invite_seconds = 50; //10秒后再次显示自动邀请
 
 <div class="copyright"> Copyright <a href="/shan2015/ad_login.asp" target="_blank"  class="copyright">&copy;</a> 2015　<font color="#FFFFFF">宜昌富伦特国际旅行社有限公司旅游网</font>　版权所有 yncitsyn   007  010 
 </div>
-<script src="http://www.yncits006.com/js/jquery.min.js"></script>
-<script src="http://www.yncits006.com/js/public.min.js"></script>
-<!--<div class=\"btn btn-wx\"><img class=\"pic\" src=\"< %=SysSiteweixin%>\"></div>-->
-<script>
-$(function(){
 
-	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a href=\"http://det.zoosnet.net/LR/Chatpre.aspx?id=DET24051751&lng=cn\" class=\"btn btn-kf\"></a><a href=\"tencent://Message/?Uin=2853327850&websiteName=/=&Menu=yes\" class=\"btn btn-qq\"></a><div class=\"btn btn-phone\"><div class=\"phone\">400 880 7433</div></div><div class=\"btn btn-top\"></div></div>";
-	$("#top").html(tophtml);
-	$("#izl_rmenu").each(function(){
-		$(this).find(".btn-wx").mouseenter(function(){
-			$(this).find(".pic").fadeIn("fast");
-		});
-		$(this).find(".btn-wx").mouseleave(function(){
-			$(this).find(".pic").fadeOut("fast");
-		});
-		$(this).find(".btn-phone").mouseenter(function(){
-			$(this).find(".phone").fadeIn("fast");
-		});
-		$(this).find(".btn-phone").mouseleave(function(){
-			$(this).find(".phone").fadeOut("fast");
-		});
-		$(this).find(".btn-top").click(function(){
-			$("html, body").animate({
-				"scroll-top":0
-			},"fast");
-		});
-	});
-	var lastRmenuStatus=false;
-	$(window).scroll(function(){//bug
-		var _top=$(window).scrollTop();
-		if(_top>200){
-			$("#izl_rmenu").data("expanded",true);
-		}else{
-			$("#izl_rmenu").data("expanded",false);
-		}
-		if($("#izl_rmenu").data("expanded")!=lastRmenuStatus){
-			lastRmenuStatus=$("#izl_rmenu").data("expanded");
-			if(lastRmenuStatus){
-				$("#izl_rmenu .btn-top").slideDown();
-			}else{
-				$("#izl_rmenu .btn-top").slideUp();
-			}
-		}
-	});
-});
-</script>
+
 <div id="top"></div>
 <!-- Footer End-->
-<style type="text/css">
-	#www_zzjs_net{width:220px;height:130px;text-align:center;}
-	*html .bottomcut{position:absolute}
-	.bottomcut{position:fixed;bottom:0;left:0;z-index:9999;width:100%;height:52px;background:url(/bottom_server_bg.jpg);_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight)}
-	.bottomcut ul{width:775px;height:52px;background:url(/bottom_server1.jpg) no-repeat;margin:0 auto}
-	.bottomcut ul .a1 a,.bottomcut ul .a2 a{display:block;float:right;width:134px;height:33px}
-	.bottomcut ul .a1 a{margin:11px 16px 0 0}
-	.bottomcut ul .a2 a{margin:11px 13px 0 0}
-	.bottomcut2{position:fixed;bottom:0;left:0;z-index:9999;width:100%;height:52px;background:url(bottom_server_bg.jpg);_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight)}
-	.bottomcut2 ul{width:775px;height:52px;background:url(bottom_server2.jpg) no-repeat;margin:0 auto}
-	.bottomcut2 ul .a1 a,.bottomcut2 ul .a2 a{display:block;float:right;width:134px;height:33px}
-	.bottomcut2 ul .a1 a{margin:11px 16px 0 0}
-	.bottomcut2 ul .a2 a{margin:11px 13px 0 0}
-	li {list-style-type:none;}
-</style>
+
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td height="50"><!--底部 end-->
 
 	<div class="bottomcut">
 	<ul>
-	<li class="a1"><a href="http://det.zoosnet.net/LR/Chatpre.aspx?id=DET24051751&lng=cn" target="_blank"></a></li>
-	<li class="a2"><a href="http://det.zoosnet.net/LR/Chatpre.aspx?id=DET24051751&lng=cn" target="_blank"></a></li>
+	<li class="a1"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"></a></li>
+	<li class="a2"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"></a></li>
 	</ul>
 	</div></td>
 	  </tr>
 </table>
-<style type="text/css">
-#www_zzjs_net{width:220px;height:180px;text-align:center;}
-</style>
-<script language="javascript">
-var isie6 = window.XMLHttpRequest?false:true;
-window.onload = function(){
-    var www_zzjs_net = document.getElementById('www_zzjs_net');
-    var zzjs_net = document.getElementById('zzjs_net');
-   if(isie6){
-         www_zzjs_net.style.position = 'absolute';
-         window.onscroll = function(){
-              zzjs_net.innerHTML = '';
-          }
-   }else{
-      www_zzjs_net.style.position = 'fixed';
-   }
-      www_zzjs_net.style.right = '0';
-      www_zzjs_net.style.bottom = '0';
-}
-</script>
+
 <div id ="zzjs_net" style="display:none;">请用手机扫描</div>
-<div id="www_zzjs_net" style="z-index:9999;"><a href="http://det.zoosnet.net/LR/Chatpre.aspx?id=DET24051751&lng=cn" target="_blank"><img src="http://www.yncits006.com/qqzx.gif" border="0" /></a></div>
-<script src='http://www.sosoyun.cn/?i=30732'></script>  
-<script type="text/javascript">
-    $(document).ready(function(){
-        lazyimg();
-    });
-</script>
+<div id="www_zzjs_net" style="z-index:9999;"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"><img src="http://www.yncits006.com/qqzx.gif" border="0" /></a></div>
+<script type="text/javascript" src="<?php echo $this->assets['app'] ?>/js/shouye_bottom.js"></script>
 </body>
 </html>
