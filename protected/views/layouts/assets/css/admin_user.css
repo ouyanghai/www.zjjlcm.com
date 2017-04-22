@@ -116,16 +116,16 @@ li{
 	margin-left:20px;
 }
 
-#mod_form{
+#add_form{
 	margin-left:20px;
 	margin-top:20px;
 	width:300px;
 	height:300px;
 }
-#mod_form li{
+#add_form li{
 	margin-top:20px;
 }
-#mod_sub{
+#add_sub{
 	display:block;
 	margin:0 auto;
 }

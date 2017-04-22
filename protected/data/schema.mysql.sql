@@ -7,7 +7,7 @@ CREATE TABLE app_user (
     password VARCHAR(128) NOT NULL,
     qq VARCHAR(12) NOT NULL DEFAULT 0,
     tel VARCHAR(11) NOT NULL DEFAULT 0,
-    email VARCHAR(128) NOT NULL,
+    email VARCHAR(128) NOT NULL default '',
     created DATETIME NOT NULL,
     updated DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00'
 );

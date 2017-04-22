@@ -25,7 +25,7 @@ class User extends CActiveRecord{
 	public function rules(){
 		return array(
 			array('username,password','required'),
-			array('qq,email,tel,username','safe'),
+			array('qq,email,tel,username,created,password,updated','safe'),
 			//array('password','pwdValidate','message'=>'pwd wrong')
 		);
 	}
