@@ -40,8 +40,8 @@ return array(
 	
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			//'showScriptName'=>false,
-			'urlSuffix'=>'.html',
+			'showScriptName'=>false,
+			//'urlSuffix'=>'.html',
 			'rules'=>array(
 				//'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
@@ -58,11 +58,12 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+			'connectionString' => 'mysql:host=localhost;dbname=app_zjjlcm',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => 'root',
 			'charset' => 'utf8',
+			'tablePrefix' => 'app_'
 		),
 		
 		'errorHandler'=>array(
