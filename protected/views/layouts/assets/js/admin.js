@@ -6,12 +6,10 @@ $(function(){
 			sub.find('li').animate({height:"0px"},function(){
 				sub.hide();	
 			});
-			
 		}else{
 			sub.show();
 			sub.find('li').animate({height:"25px"});
 		}
-		
 	});
 	$("#u_sub").click(function(){
 		$.ajax({
@@ -72,6 +70,60 @@ $(function(){
 		});
 	});
 	*/
+	
+	$("#subcity").click(function(event){
+		var title = $("#title").val();
+		if(title==''){
+			alert('城市名称不能为空');
+		}
+		event.preventDefault();
+		$.ajax({
+			type:'post',
+			url:'/admin/createcity',
+			data: {'title':title},
+			dataType: 'json',
+			success: function(data){
+				if(data === false){
+					alert('增加失败');
+					return;
+				}
+				alert('增加成功');
+				window.location.reload();
+			},
+			error: function(){
+				alert('操作失败');
+			}
+		});
+	});
+	
+	$("#modcity").click(function(event){
+		var title = $("#title").val();
+		var id = $("#city_id").val();
+		if(id==''){
+			alert('数据错误');
+		}
+		if(title==''){
+			alert('城市名称不能为空');
+		}
+		event.preventDefault();
+		$.ajax({
+			type:'post',
+			url:'/admin/domodcity',
+			data: {'id':id,'title':title},
+			dataType: 'json',
+			success: function(data){
+				if(data === false){
+					alert('修改失败');
+					return;
+				}
+				alert('修改成功');
+				window.location.href="/admin/citylist";
+			},
+			error: function(){
+				alert('操作失败');
+			}
+		});
+	});
 });
 
 function userDel(id){
@@ -102,4 +154,24 @@ function getUserInfo(id){
 
 function close(){
 	$("#mask,#user_manage").hide();
+}
+
+function delcity(id){
+	$.ajax({
+		type: 'post',
+		url: '/admin/delcity',
+		dataType: 'json',
+		data: {'id':id},
+		success:function(data){
+			if(data != true){
+				alert('删除失败!');
+				return;
+			}
+			alert('删除成功');
+			window.location.reload();
+		},
+		error:function(){
+			alert('操作失败');
+		},
+	});
 }

@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding:0;	
+}
+
+.post_border{
+	margin-left: 10px;
+	margin-top:10px;
+}
+#post_form{
+	margin-left:10px;
+}
+#form_ul>li{
+	margin-left: 10px;
+	margin-top:20px;
+}
+.text_area{
+	float:left;
+	margin-left:0;
+	padding-left:0;
+}
+.itemtalbe{
+	margin-top:10px;
+	margin-left:10px;
+	border-collapse:collapse;
+}

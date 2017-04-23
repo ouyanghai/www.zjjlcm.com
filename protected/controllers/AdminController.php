@@ -10,14 +10,37 @@ class AdminController extends Controller
 		$this->menu = array(
 			array(
 				'title' => '用户管理',
+				'actions' => 'adduser,userlist',
 				array('label' => '增加用户', 'url' => '/admin/adduser'),
 				array('label' => '用户列表', 'url' => '/admin/userlist'),
+			),
+			array(
+				'title' => '城市攻略',
+				'actions' => 'createcity,citylist',
+				array('label' => '增加城市' ,'url' =>'/admin/createcity'),
+				array('label' => '城市列表','url'=>'/admin/citylist'),
+			),
+			array(
+				'title' => '攻略文章',
+				'actions' => 'addarticle,articlelist',
+				array('label' => '增加文章' ,'url' =>'/admin/addarticle'),
+				array('label' => '文章列表','url'=>'/admin/articlelist'),
 			),
 		);
 	}
 	public function actionIndex()
 	{
-		$this->render('userlist');
+		$this->redirect('userlist');
+	}
+
+	public function actionAddArticle(){
+		$command = Yii::app()->db->createCommand();
+		$res = $command->setText("select * from `app_city`")->queryAll();
+		$this->render("addarticle",array("data"=>$res));
+	}
+
+	public function actionArticleList(){
+		
 	}
 
 	public function actionUserList(){
@@ -134,6 +157,81 @@ class AdminController extends Controller
 	public function actionLogout(){
 		Yii::app()->user->logout();
 		$this->redirect('login');
+	}
+
+	public function actionCreateCity(){
+		if(empty($_POST['title'])){
+			$this->render("createcity");
+			exit;
+		}
+		$command = Yii::app()->db->createCommand();
+		$name = $_POST['title'];
+		$now = date('Y-m-d H:i:s');
+		$sql = "insert into `app_city`(name,created) values('{$name}','{$now}')";
+		$num = $command->setText($sql)->execute();
+		$data = '';
+		if($num>0){
+			echo json_encode("true");
+			exit;
+		}else{
+			echo json_encode("false");
+			exit;
+		}
+	}
+	
+	public function actionCityList(){
+		$command = Yii::app()->db->createCommand();
+		$sql = "select * from `app_city` order by id";
+		$res = $command->setText($sql)->queryAll();
+		$this->render("citylist",array("data"=>$res));
+	}
+
+	public function actionDelcity(){
+		if(empty($_POST['id'])){
+			echo json_encode(false);
+			exit;
+		}
+		$id = $_POST['id'];
+		$command = Yii::app()->db->createCommand();
+		$sql = "delete from `app_city` where id='{$id}'";
+		$res = $command->setText($sql)->execute();
+		if($res>0){
+			echo json_encode(true);
+			exit;
+		}
+		echo json_encode(false);
+	}
+
+	public function actionModcity($id){
+		if(empty($_GET['id'])){
+			$this->redirect("citylist");
+			exit;
+		}
+		$id = $_GET['id'];
+		$command = Yii::app()->db->createcommand();
+		$sql = "select * from `app_city` where id='{$id}'";
+		$res = $command->setText($sql)->queryRow();
+		if(empty($res)){
+			$this->redirect("citylist");
+			exit;	
+		}
+		$this->render("modcity",array("data"=>$res));
+	}
+	public function actionDoModcity(){
+		if(empty($_POST)){
+			echo json_encode(false);
+			exit;
+		}
+		$id = $_POST['id'];
+		$name = $_POST['title'];
+		$command = Yii::app()->db->createCommand();
+		$sql = "update `app_city` set name='{$name}' where id='{$id}'";
+		$num = $command->setText($sql)->execute();
+		if($num>0){
+			echo json_encode(true);
+			exit;
+		}
+		echo json_encode(false);
 	}
 
 	public function filters(){

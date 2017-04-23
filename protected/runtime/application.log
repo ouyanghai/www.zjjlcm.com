@@ -2162,3 +2162,979 @@ Stack trace:
 REQUEST_URI=/images/blank.gif
 HTTP_REFERER=http://local.zjjlcm.com/web/pic
 ---
+2017/04/23 15:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.zjjlcm.com/
+---
+2017/04/23 15:10:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "line".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('line')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/line/?line-1936-88.htm
+HTTP_REFERER=http://local.zjjlcm.com/
+---
+2017/04/23 15:10:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/blank.gif".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('images/blank.gi...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/blank.gif
+HTTP_REFERER=http://local.zjjlcm.com/web/pic
+---
+2017/04/23 15:52:19 [error] [php] Trying to get property of non-object (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(145): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (27)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (145)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:52:36 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(145): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (27)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (145)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:26 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:27 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:28 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:28 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:28 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:28 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:28 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:29 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:29 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:29 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:30 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:30 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:30 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:30 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:51 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:55:52 [error] [php] Undefined index: url (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:29)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#1 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#2 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#3 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#5 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#6 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#7 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#10 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#11 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (29)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:58:14 [error] [php] strpos() expects parameter 1 to be string, array given (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#1 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#2 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#3 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#4 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#7 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#8 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#11 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#12 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (27)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:58:38 [error] [php] strpos() expects parameter 1 to be string, array given (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#1 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#2 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#3 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#4 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#7 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#8 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#11 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#12 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (27)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:58:38 [error] [php] strpos() expects parameter 1 to be string, array given (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#1 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#2 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#3 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#4 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#7 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#8 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#11 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#12 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (27)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:58:39 [error] [php] strpos() expects parameter 1 to be string, array given (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#1 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#2 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#3 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#4 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#7 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#8 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#11 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#12 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (27)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:58:39 [error] [php] strpos() expects parameter 1 to be string, array given (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#1 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#2 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#3 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#4 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#7 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#8 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#11 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#12 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (27)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:58:39 [error] [php] strpos() expects parameter 1 to be string, array given (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#1 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#2 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#3 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#4 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#7 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#8 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#11 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#12 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (27)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 15:58:39 [error] [php] strpos() expects parameter 1 to be string, array given (D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#1 D:\wwwroot\framework\web\CController.php(784): AdminController->renderFile()
+#2 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(147): AdminController->render()
+#3 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionCreateCity()
+#4 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#6 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#7 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#8 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#11 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#12 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/createcity
+in D:\wwwroot\www.zjjlcm.com\protected\views\layouts\admin.php (27)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (147)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/23 16:16:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "citylist".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('citylist')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('citylist')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/citylist')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/citylist
+HTTP_REFERER=http://local.zjjlcm.com/admin/createcity
+---
+2017/04/23 16:30:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "citylist".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('citylist')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('citylist')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/citylist')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/citylist
+HTTP_REFERER=http://local.zjjlcm.com/admin/createcity
+---
+2017/04/23 16:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "citylist".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('citylist')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('citylist')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/citylist')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/citylist
+HTTP_REFERER=http://local.zjjlcm.com/admin/createcity
+---
+2017/04/23 16:31:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "citylist".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('citylist')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('citylist')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/citylist')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/citylist
+HTTP_REFERER=http://local.zjjlcm.com/admin/createcity
+---
+2017/04/23 16:31:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "citylist".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('citylist')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('citylist')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/citylist')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/citylist
+HTTP_REFERER=http://local.zjjlcm.com/admin/createcity
+---
+2017/04/23 16:50:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '{now}' for column 'created' at row 1. The SQL statement executed was: insert into `app_city`(name,created) values('阿斯蒂芬','{now}').
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (158)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+in D:\wwwroot\www.zjjlcm.com\index.php (13)
+2017/04/23 16:50:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '{now}' for column 'created' at row 1. The SQL statement executed was: insert into `app_city`(name,created) values('阿斯蒂芬','{now}')' in D:\wwwroot\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(158): CDbCommand->execute()
+#1 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionPostcity()
+#2 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#5 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#6 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('postcity')
+#10 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/postcity')
+#11 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/admin/postcity
+HTTP_REFERER=http://local.zjjlcm.com/admin/createcity
+---
+2017/04/23 17:42:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity/35
+HTTP_REFERER=http://local.zjjlcm.com/admin/citylist
+---
+2017/04/23 18:32:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity/35
+HTTP_REFERER=http://local.zjjlcm.com/admin/citylist
+---
+2017/04/23 18:33:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "modcity".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('modcity')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wwwroot\framework\web\CController.php:336
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wwwroot\framework\web\CController.php:336
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wwwroot\framework\web\CController.php:336
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:33:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wwwroot\framework\web\CController.php:336
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:34:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wwwroot\framework\web\CController.php:336
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:34:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wwwroot\framework\web\CController.php:336
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:34:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wwwroot\framework\web\CController.php:336
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:34:29 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wwwroot\framework\web\CController.php:336
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:34:29 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\wwwroot\framework\web\CController.php:336
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('modcity')
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/modcity')
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/modcity
+---
+2017/04/23 18:50:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table `app_city` set name='eeeee' where id='35'' at line 1. The SQL statement executed was: update table `app_city` set name='eeeee' where id='35'.
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (213)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+in D:\wwwroot\www.zjjlcm.com\index.php (13)
+2017/04/23 18:50:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table `app_city` set name='eeeee' where id='35'' at line 1. The SQL statement executed was: update table `app_city` set name='eeeee' where id='35'' in D:\wwwroot\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(213): CDbCommand->execute()
+#1 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionDoModcity()
+#2 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#5 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#6 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('domodcity')
+#10 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/domodcity')
+#11 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/admin/domodcity
+HTTP_REFERER=http://local.zjjlcm.com/admin/modcity/35
+---
+2017/04/23 18:51:17 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table `app_city` set name='eeeee' where id='35'' at line 1. The SQL statement executed was: update table `app_city` set name='eeeee' where id='35'.
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (213)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+in D:\wwwroot\www.zjjlcm.com\index.php (13)
+2017/04/23 18:51:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table `app_city` set name='eeeee' where id='35'' at line 1. The SQL statement executed was: update table `app_city` set name='eeeee' where id='35'' in D:\wwwroot\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(213): CDbCommand->execute()
+#1 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionDoModcity()
+#2 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#5 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#6 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('domodcity')
+#10 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/domodcity')
+#11 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/admin/domodcity
+HTTP_REFERER=http://local.zjjlcm.com/admin/modcity/35
+---
+2017/04/23 19:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/23 19:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/23 19:04:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/23 19:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/23 19:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/23 19:05:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/23 19:05:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/23 19:05:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---

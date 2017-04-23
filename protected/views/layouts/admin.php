@@ -24,7 +24,7 @@
 				<?php foreach($this->menu as $key => $val){?>
 				<li class='left_ul_li'>
 					<a class="open-hide" href="javascript:;"><?php echo $val['title']; ?></a>
-					<ul class="sub <?php if(strpos(Yii::app()->request->pathInfo,$this->getAction()->getId())!==false){echo 'open';}else{echo 'hide';} ?>">
+					<ul class="sub <?php if(strpos($val['actions'], $this->getAction()->getId())!==false){echo 'open';}else{echo 'hide';} ?>">
 						<?php foreach($val as $v){ if(is_array($v)){?>
 						<li class="lic"><a href="<?php echo $v['url']; ?>"><?php echo $v['label'] ?></a></li>
 						<?php }} ?>
