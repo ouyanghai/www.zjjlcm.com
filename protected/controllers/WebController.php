@@ -14,6 +14,11 @@ class WebController extends TopController{
 		
 	}
 
+	public function actionCompany(){
+		$act = $_GET['act']=="about"? "about" : "connect";
+		$this->render("company",array('act'=>$act));
+	}
+
 	public function actionTejia(){
 		$this->render("tejia");
 	}

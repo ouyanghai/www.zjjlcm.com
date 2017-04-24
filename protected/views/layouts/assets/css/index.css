@@ -1,4 +1,4 @@
-/*首页   2014-07-01   -----------------------------------------------------------------------------*/
+	/*首页   2014-07-01   -----------------------------------------------------------------------------*/
 .index-bg{background:url(http://www.yncits006.com/images/index-bg.jpg) repeat-y;}
 .biaog {
 	border: 2px solid #999999;
@@ -164,7 +164,7 @@
 /*当季热推*/
 .index-popular-box{ background:#FFF; padding:30px;}
 .popular-left{ float:left; width:260px;}
-.popular-right{ float:right; width:852px; overflow:hidden; }
+.popular-right{width:1180px; overflow:hidden; }
 .popular-left .h1{ font-size:28px; font-weight:bold; color:#93c11b; line-height:30px; padding-bottom:3px;}
 .popular-left .p-txt1{ font-size:14px; font-family:Microsoft Yahei; color:#a8a7a7; line-height:18px;}
 .one-continent{ margin-top:20px;}
@@ -177,7 +177,7 @@
 .one-continent .dest-ul a{color: #737373;padding: 6px 0;  cursor:pointer;}
 .one-continent .dest-ul a:hover{ color:#71b32b; text-decoration:none;}
 .popu-list{ overflow:hidden; zoom:1;}
-.popu-list li{ float:left; display: inline-block;width:212px; height:216px; margin-right:1px; margin-bottom:1px; overflow:hidden; position:relative;}
+.popu-list li{ float:left; display: inline-block;width:282px; height:286px; margin-right:1px; margin-bottom:1px; overflow:hidden; position:relative;}
 .popu-list li a,.popu-list li a:hover,.popu-list li a > *:hover{ text-decoration:none;}
 .popu-list .popu-item{ display:block; position:relative; }
 .popu-list .popu-item img{ width:100%; height:100%;}

@@ -399,26 +399,7 @@
                 </div>
             </div>
         </div>
-        <div class="ds-right">
-            <div class="j-fix">
-            <div class="ds-order-box r10">
-                <div class="ds-order-tit">
-                    <i class="icon-man"></i>
-                    <h3 class="h3">没有喜欢的行程？</h3>
-                </div>
-                <div class="ds-order-inf">
-                    <p class="h5 tc f14">让1对1旅行管家为你定制</p>
-                    <div class="ds-order-btn-box">
-                        <a href="http://det.zoosnet.net/LR/Chatpre.aspx?id=DET24051751&lng=cn" class="btn-base btn-hgreen btn-h45">联系客服</a>
-                        <br/><br/>
-                        <a href="/dingzhi" class="btn-base btn-hgreen btn-h45">在线定制</a>
-                    </div>
-                    
-                </div>
-               
-            </div>
-            </div>
-        </div>
+        
     </div>
 </div>
 

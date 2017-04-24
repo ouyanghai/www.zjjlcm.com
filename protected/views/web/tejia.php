@@ -22,13 +22,13 @@
                         <span class="doc-tags top-1">玩法<i>1</i></span>
                         <div class="d-jour-box clearfix">
                             <div class="d-j-img">
-                                <a href="/line/?line-1996-88.htm" target="_blank"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" original="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" alt="【游购分离】夏日BBQ昆大丽6日游"/></a>
+                                <a href="javascript:;"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" original="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" alt="【游购分离】夏日BBQ昆大丽6日游"/></a>
                                 <div class="d-j-reason">
                                 <p>【游购分离】夏日BBQ昆大丽6日游</p>
                                 </div>                            </div>
                             <div class="d-j-info">
                                 <div class="d-j-top">
-                                    <h2 class="d-j-tit h2"><a href="/line/?line-1996-88.htm" target="_blank">【游购分离】夏日BBQ昆大丽6日游</a></h2>
+                                    <h2 class="d-j-tit h2"><a href="javascript:;">【游购分离】夏日BBQ昆大丽6日游</a></h2>
                                     <div class="doc-info clearfix">
                                         <span class="doc-time left"><span>行程天数：1天</span></span>
                                         <span class="doc-mdd left"><span>发团时间：天天发团</span></span>
@@ -57,13 +57,13 @@
                         <span class="doc-tags top-2">玩法<i>2</i></span>
                         <div class="d-jour-box clearfix">
                             <div class="d-j-img">
-                                <a href="/line/?line-1993-88.htm" target="_blank"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" original="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" alt="【游购分离】心解放：石林|大理|丽江6日游"/></a>
+                                <a href="javascript:;"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" original="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" alt="【游购分离】心解放：石林|大理|丽江6日游"/></a>
                                 <div class="d-j-reason">
                                 <p>【游购分离】心解放：石林|大理|丽江6日游</p>
                                 </div>                            </div>
                             <div class="d-j-info">
                                 <div class="d-j-top">
-                                    <h2 class="d-j-tit h2"><a href="/line/?line-1993-88.htm" target="_blank">【游购分离】心解放：石林|大理|丽江6日游</a></h2>
+                                    <h2 class="d-j-tit h2"><a href="javascript:;" target="_blank">【游购分离】心解放：石林|大理|丽江6日游</a></h2>
                                     <div class="doc-info clearfix">
                                         <span class="doc-time left"><span>行程天数：1天</span></span>
                                         <span class="doc-mdd left"><span>发团时间：天天发团</span></span>
@@ -91,13 +91,13 @@
                         <span class="doc-tags top-3">玩法<i>3</i></span>
                         <div class="d-jour-box clearfix">
                             <div class="d-j-img">
-                                <a href="/line/?line-1992-88.htm" target="_blank"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" original="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" alt="【游购分离】飞跃无限——昆明、丽江、大理3飞6日游导游全程陪同让您旅途无忧！"/></a>
+                                <a href="javascript:;"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" original="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" alt="【游购分离】飞跃无限——昆明、丽江、大理3飞6日游导游全程陪同让您旅途无忧！"/></a>
                                 <div class="d-j-reason">
                                 <p>【游购分离】飞跃无限——昆明、丽江、大理3飞6日游导</p>
                                 </div>                            </div>
                             <div class="d-j-info">
                                 <div class="d-j-top">
-                                    <h2 class="d-j-tit h2"><a href="/line/?line-1992-88.htm" target="_blank">【游购分离】飞跃无限——昆明、丽江、大理3飞6日游</a></h2>
+                                    <h2 class="d-j-tit h2"><a href="javascript:;">【游购分离】飞跃无限——昆明、丽江、大理3飞6日游</a></h2>
                                     <div class="doc-info clearfix">
                                         <span class="doc-time left"><span>行程天数：1天</span></span>
                                         <span class="doc-mdd left"><span>发团时间：天天发团</span></span>
@@ -125,13 +125,13 @@
                         <span class="doc-tags top-4">玩法<i>4</i></span>
                         <div class="d-jour-box clearfix">
                             <div class="d-j-img">
-                                <a href="/line/?line-1444-88.htm" target="_blank"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" original="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" alt="【游购分离】石林|大理|丽江6日【淡季畅销短途家庭游】云南常年热销线路、4+5A景点全部覆盖、导游全程陪同让您旅途无忧！"/></a>
+                                <a href="javascript:;"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" original="http://www.yncits006.com/upfiles/image/20150123/20150123162136603660.jpg" alt="【游购分离】石林|大理|丽江6日【淡季畅销短途家庭游】云南常年热销线路、4+5A景点全部覆盖、导游全程陪同让您旅途无忧！"/></a>
                                 <div class="d-j-reason">
                                 <p>【游购分离】石林|大理|丽江6日【淡季畅销短途家庭游】</p>
                                 </div>                            </div>
                             <div class="d-j-info">
                                 <div class="d-j-top">
-                                    <h2 class="d-j-tit h2"><a href="/line/?line-1444-88.htm" target="_blank">【游购分离】石林|大理|丽江6日【淡季畅销短途家庭游</a></h2>
+                                    <h2 class="d-j-tit h2"><a href="javascript:;">【游购分离】石林|大理|丽江6日【淡季畅销短途家庭游</a></h2>
                                     <div class="doc-info clearfix">
                                         <span class="doc-time left"><span>行程天数：6天</span></span>
                                         <span class="doc-mdd left"><span>发团时间：天天发团</span></span>
@@ -189,13 +189,13 @@
                         <span class="doc-tags top-5">玩法<i>5</i></span>
                         <div class="d-jour-box clearfix">
                             <div class="d-j-img">
-                                <a href="/line/?line-1360-88.htm" target="_blank"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150122/20150122112077257725.jpg" original="/upfiles/image/20150122/20150122112077257725.jpg" alt="【游购分离】云南大理+丽江5天4晚跟团加自由行超值休闲游"/></a>
+                                <a href="javascript:;"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150122/20150122112077257725.jpg" original="/upfiles/image/20150122/20150122112077257725.jpg" alt="【游购分离】云南大理+丽江5天4晚跟团加自由行超值休闲游"/></a>
                                 <div class="d-j-reason">
                                 <p>昆明起止：云南大理+丽江5天4晚跟团+自由行</p>
                                 </div>                            </div>
                             <div class="d-j-info">
                                 <div class="d-j-top">
-                                    <h2 class="d-j-tit h2"><a href="/line/?line-1360-88.htm" target="_blank">【游购分离】云南大理+丽江5天4晚跟团加自由行超值休</a></h2>
+                                    <h2 class="d-j-tit h2"><a href="javascript:;" target="_blank">【游购分离】云南大理+丽江5天4晚跟团加自由行超值休</a></h2>
                                     <div class="doc-info clearfix">
                                         <span class="doc-time left"><span>行程天数：5天</span></span>
                                         <span class="doc-mdd left"><span>发团时间：天天发团</span></span>
@@ -247,13 +247,13 @@
                         <span class="doc-tags top-6">玩法<i>6</i></span>
                             <div class="d-jour-box clearfix">
                             <div class="d-j-img">
-                                <a href="/line/?line-1362-88.htm" target="_blank"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150122/20150122112315841584.jpg" original="http://www.yncits006.com/upfiles/image/20150122/20150122112315841584.jpg" alt="【游购分离】<魅力版纳>最全面、最完美的西双版纳游"/></a>
+                                <a href="javascript:;"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150122/20150122112315841584.jpg" original="http://www.yncits006.com/upfiles/image/20150122/20150122112315841584.jpg" alt="【游购分离】<魅力版纳>最全面、最完美的西双版纳游"/></a>
                                 <div class="d-j-reason">
                                 <p>【游购分离】<魅力版纳>最全面、最完美的西双版纳游</p>
                                 </div>                            </div>
                             <div class="d-j-info">
                                 <div class="d-j-top">
-                                    <h2 class="d-j-tit h2"><a href="/line/?line-1362-88.htm" target="_blank">【游购分离】<魅力版纳>最全面、最完美的西双版纳游</a></h2>
+                                    <h2 class="d-j-tit h2"><a href="javascript:;" target="_blank">【游购分离】<魅力版纳>最全面、最完美的西双版纳游</a></h2>
                                     <div class="doc-info clearfix">
                                         <span class="doc-time left"><span>行程天数：6天</span></span>
                                         <span class="doc-mdd left"><span>发团时间：天天发团</span></span>
@@ -311,13 +311,13 @@
                         <span class="doc-tags top-7">玩法<i>7</i></span>
                         <div class="d-jour-box clearfix">
                             <div class="d-j-img">
-                                <a href="/line/?line-1372-88.htm" target="_blank"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150122/20150122124176337633.jpg" original="http://www.yncits006.com/upfiles/image/20150122/20150122124176337633.jpg" alt="【游购分离】昆明+石林+大理+丽江+西双版纳9天8晚双卧跟团+自由行超值休闲游"/></a>
+                                <a href="javascript:;"><img class="lazy" src="http://www.yncits006.com/upfiles/image/20150122/20150122124176337633.jpg" original="http://www.yncits006.com/upfiles/image/20150122/20150122124176337633.jpg" alt="【游购分离】昆明+石林+大理+丽江+西双版纳9天8晚双卧跟团+自由行超值休闲游"/></a>
                                 <div class="d-j-reason">
                                 <p>【游购分离】昆明+石林+大理+丽江+西双版纳9天8晚双卧</p>
                                 </div>                            </div>
                             <div class="d-j-info">
                                 <div class="d-j-top">
-                                    <h2 class="d-j-tit h2"><a href="/line/?line-1372-88.htm" target="_blank">【游购分离】昆明+石林+大理+丽江+西双版纳9天8晚双</a></h2>
+                                    <h2 class="d-j-tit h2"><a href="javascript:;" target="_blank">【游购分离】昆明+石林+大理+丽江+西双版纳9天8晚双</a></h2>
                                     <div class="doc-info clearfix">
                                         <span class="doc-time left"><span>行程天数：9天</span></span>
                                         <span class="doc-mdd left"><span>发团时间：天天发团</span></span>
@@ -390,33 +390,6 @@
                         </div>
                     </li>
                 </ul>
-                <div class="page-field">
-                    <a href='index.asp?list-1-32-1.html&RsCount=7&PageNo=1' >首页</a>&nbsp;
-                    <a href='index.asp?list-1-32-1.html&RsCount=7&PageNo=1' class='UpPage'>上一页</a>&nbsp;
-                    <a href='index.asp?list-1-32-1.html&RsCount=7&PageNo=1' class='NextPage'>下一页</a>&nbsp;
-                    <a href='index.asp?list-1-32-1.html&RsCount=7&PageNo=1' >尾页</a> 
-                    <a>页次：1/1页 8条记录/页</a>
-                </div>
-            </div>
-        </div>
-        <div class="ds-right">
-            <div class="j-fix">
-            <div class="ds-order-box r10">
-                <div class="ds-order-tit">
-                    <i class="icon-man"></i>
-                    <h3 class="h3">没有喜欢的行程？</h3>
-                </div>
-                <div class="ds-order-inf">
-                    <p class="h5 tc f14">让1对1旅行管家为你定制</p>
-                    <div class="ds-order-btn-box">
-                        <a href="http://det.zoosnet.net/LR/Chatpre.aspx?id=DET24051751&lng=cn" class="btn-base btn-hgreen btn-h45">联系客服</a>
-                        <br/><br/>
-                        <a href="/dingzhi" class="btn-base btn-hgreen btn-h45">在线定制</a>
-                    </div>
-                    
-                </div>
-               
-            </div>
             </div>
         </div>
     </div>

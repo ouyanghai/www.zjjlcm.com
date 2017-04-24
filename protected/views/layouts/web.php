@@ -44,29 +44,33 @@
 	echo $content;
 	?>
 
-<div class="copyright"> Copyright <a href="/shan2015/ad_login.asp" target="_blank"  class="copyright">&copy;</a> 2015　<font color="#FFFFFF">宜昌富伦特国际旅行社有限公司旅游网</font>　版权所有 yncitsyn   007  010 
-<a href="/about/?article-1492-00-88.html"   class="copyright">关于我们</a> <a href="/about/?article-1493-00-88.html"  class="copyright">联系我们</a>
+<div class="copyright"> Copyright <a href="/shan2015/ad_login.asp" target="_blank"  class="copyright">&copy;</a> 2015　<font color="#FFFFFF">驴参谋</font>　版权所有 yncitsyn 007010 
+<a href="<?php echo $this->createUrl('company',array('act'=>'about')) ?>"  class="copyright">关于我们</a> <a href="<?php echo $this->createUrl('company',array('act'=>'connect')) ?>"  class="copyright">联系我们</a>
 </div>
 
 
 <div id="top"></div>
 <!-- Footer End-->
-
+<!--
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td height="50"><!--底部 end-->
+    <td height="50">
+	
+		<div class="bottomcut">
+		<ul>
+		<li class="a1"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"></a></li>
+		<li class="a2"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"></a></li>
+		</ul>
+		</div>
 
-	<div class="bottomcut">
-	<ul>
-	<li class="a1"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"></a></li>
-	<li class="a2"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"></a></li>
-	</ul>
-	</div></td>
+	</td>
 	  </tr>
 </table>
-
+-->
 <div id ="zzjs_net" style="display:none;">请用手机扫描</div>
+<!--
 <div id="www_zzjs_net" style="z-index:9999;"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"><img src="http://www.yncits006.com/qqzx.gif" border="0" /></a></div>
+-->
 <script type="text/javascript" src="<?php echo $this->assets['app'] ?>/js/shouye_bottom.js"></script>
 <script type="text/javascript">
 	$("#child_menu_li").mouseover(function(){
