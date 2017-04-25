@@ -3617,3 +3617,303 @@ Stack trace:
 REQUEST_URI=/images/blank.gif
 HTTP_REFERER=http://local.zjjlcm.com/web/pic
 ---
+2017/04/25 20:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.zjjlcm.com/
+---
+2017/04/25 20:09:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150122/20150122112077257725.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150122/20150122112077257725.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/tejia
+---
+2017/04/25 20:55:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "line_1".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('line_1')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('line_1')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('web/line_1')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/web/line_1
+---
+2017/04/25 20:55:35 [error] [php] Undefined index: line (D:\wwwroot\www.zjjlcm.com\protected\controllers\WebController.php:27)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(286): WebController->runAction()
+#1 D:\wwwroot\framework\web\CController.php(265): WebController->runActionWithFilters()
+#2 D:\wwwroot\framework\web\CWebApplication.php(282): WebController->run()
+#3 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/web/line/1
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\WebController.php (27)
+in D:\wwwroot\www.zjjlcm.com\index.php (13)
+2017/04/25 20:55:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150122/20150122112077257725.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150122/20150122112077257725.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/1
+---
+2017/04/25 20:56:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asp_client/hits.asp".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('asp_client/hits...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/asp_client/hits.asp?t=Line&i=1996
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:56:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/blank.gif".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('images/blank.gi...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/blank.gif
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:56:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150123/20150123162136603660.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150123/20150123162136603660.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/vacation_view.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('js/vacation_vie...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/vacation_view.js
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "qqzx.gif".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('qqzx.gif')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/qqzx.gif
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asp_client/hits.asp".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('asp_client/hits...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/asp_client/hits.asp?t=Line&i=1996
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bottom_server_bg.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('bottom_server_b...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bottom_server_bg.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/blank.gif".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('images/blank.gi...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/blank.gif
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:57:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150123/20150123162136603660.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150123/20150123162136603660.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:57:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bottom_server1.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('bottom_server1....')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bottom_server1.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150122/20150122112315841584.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150122/20150122112315841584.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150122/20150122112077257725.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150122/20150122112077257725.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150123/20150123162136603660.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150123/20150123162136603660.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/vacation_view.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('js/vacation_vie...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/vacation_view.js
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asp_client/hits.asp".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('asp_client/hits...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/asp_client/hits.asp?t=Line&i=1996
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "qqzx.gif".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('qqzx.gif')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/qqzx.gif
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bottom_server_bg.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('bottom_server_b...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bottom_server_bg.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 20:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bottom_server1.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('bottom_server1....')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bottom_server1.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/vacation_view.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('js/vacation_vie...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/vacation_view.js
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150123/20150123162136603660.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150123/20150123162136603660.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asp_client/hits.asp".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('asp_client/hits...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/asp_client/hits.asp?t=Line&i=1996
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "qqzx.gif".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('qqzx.gif')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/qqzx.gif
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150123/20150123162136603660.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150123/20150123162136603660.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/vacation_view.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('js/vacation_vie...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/vacation_view.js
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asp_client/hits.asp".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('asp_client/hits...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/asp_client/hits.asp?t=Line&i=1996
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150123/20150123162136603660.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150123/20150123162136603660.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asp_client/hits.asp".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('asp_client/hits...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/asp_client/hits.asp?t=Line&i=1996
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---
+2017/04/25 21:05:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upfiles/image/20150123/20150123162136603660.jpg".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('upfiles/image/2...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upfiles/image/20150123/20150123162136603660.jpg
+HTTP_REFERER=http://local.zjjlcm.com/web/line/line/1
+---

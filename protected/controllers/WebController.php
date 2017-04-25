@@ -22,6 +22,12 @@ class WebController extends TopController{
 	public function actionTejia(){
 		$this->render("tejia");
 	}
+
+	public function actionLine(){
+		$line = $_GET['reg'];
+		$file = "line_".$line;
+		$this->render($file);
+	}
 	
 	public function actionView(){
 		$this->render("view");
