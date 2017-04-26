@@ -36,7 +36,7 @@ class AdminController extends Controller
 	}
 	public function actionIndex()
 	{
-		$this->redirect('userlist');
+		$this->redirect('/admin/userlist');
 	}
 
 	public function actionAddLine(){
@@ -45,6 +45,35 @@ class AdminController extends Controller
 
 	public function actionLineList(){
 
+	}
+
+	public function actionDoPostLine(){
+		$params = "(";
+		$values = "(";
+		foreach ($_POST as $key => $val) {
+			if($val!=""){
+				$params .= $key.",";
+				if($key=='introduce' ||$key=='include' ||$key=='uninclude' ||$key=='notice'){
+					$val = htmlspecialchars($val);
+				}
+				$values .= "'{$val}',";
+			}
+		}	
+		$pic = $this->uploadFile('line');
+		if(empty($pic)){
+			Yii::app()->user->setFlash('uploadFile','文件上传失败!');
+			$this->redirect('/admin/addline');
+			exit;
+		}
+		$pic = $pic[0];
+		$updated = date('Y-m-d H:i:s',time());
+		$created = date('Y-m-d H:i:s',time());
+		$params .= "pic,updated,created)";
+		$values .= "'{$pic}','{$updated}','{$created}')";
+		$command = Yii::app()->db->createCommand();
+		$sql = "insert into `app_line`{$params} values {$values}";
+		$command->setText($sql)->execute();
+		$this->redirect('/admin/linelist');
 	}
 
 	public function actionAddArticle(){
@@ -88,7 +117,7 @@ class AdminController extends Controller
 			$sql = "select * from {{user}} where username like '{$_POST['username']}'";
 			$row = $command->setText($sql)->queryRow();
 			if(!empty($row)){
-				$this->redirect("userlist");
+				$this->redirect("/admin/userlist");
 				exit;
 			}else{
 				if(empty($_POST['password'])){
@@ -105,12 +134,12 @@ class AdminController extends Controller
 				$sql = "insert into `app_user` (username,password,created,updated,email) values('{$username}','{$password}','{$created}','{$updated}','{$email}')";
 				$res = $command->setText($sql)->execute();
 				if($res >0){
-					$this->redirect('userlist');
+					$this->redirect('/admin/userlist');
 					exit;
 				}
 			}
 		}
-		$this->redirect('userlist');
+		$this->redirect('/admin/userlist');
 	}
 	//用户管理处理删除的ajax请求
 	public function actionDel(){
@@ -170,7 +199,7 @@ class AdminController extends Controller
 
 	public function actionLogout(){
 		Yii::app()->user->logout();
-		$this->redirect('login');
+		$this->redirect('/admin/login');
 	}
 
 	public function actionCreateCity(){
@@ -218,7 +247,7 @@ class AdminController extends Controller
 
 	public function actionModcity($id){
 		if(empty($_GET['id'])){
-			$this->redirect("citylist");
+			$this->redirect("admin/citylist");
 			exit;
 		}
 		$id = $_GET['id'];
@@ -226,7 +255,7 @@ class AdminController extends Controller
 		$sql = "select * from `app_city` where id='{$id}'";
 		$res = $command->setText($sql)->queryRow();
 		if(empty($res)){
-			$this->redirect("citylist");
+			$this->redirect("/admin/citylist");
 			exit;	
 		}
 		$this->render("modcity",array("data"=>$res));

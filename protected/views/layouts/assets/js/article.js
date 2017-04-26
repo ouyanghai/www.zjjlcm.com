@@ -4,7 +4,7 @@ $(function(){
 		sub = true;
 		var str = '';
 		var arr = ['jpg','png','bmp','jpeg'];
-		var maxSize = 2*1024*1024;
+		var maxSize = 4*1024*1024;
 		$.each(this.files,function(i,file){
 			//判断大小
 			var mSize = file.size.toFixed(2) + 'B';
@@ -29,14 +29,13 @@ $(function(){
 		});
 		$("#files").html(str);
 	});
-	$("#sub").click(function(event){
+	$("#subline").click(function(event){
 		var content='';
-
 		var title = $("#title").val();
 		if(title==''){content = "标题 ";}
 
 		var ue = UE.getEditor("editor").hasContents();
-		if(!ue){content +="内容 ";}
+		if(!ue){content +="行程介绍 ";}
 
 		var file = $("#pic").val();
 		if(file==''){content += "图片 ";}
@@ -46,6 +45,7 @@ $(function(){
 		if(!sub || title=='' || ue==false || file==''){
 			alert(content);
 			event.preventDefault();
+			return false;
 		}
 	});
 })

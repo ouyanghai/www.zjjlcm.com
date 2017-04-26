@@ -8,15 +8,15 @@
 	#line_form li{margin-top:10px;}
 </style>
 <div class='post_border' style='margin-left:10px;'>
-	<form action="<?php echo $this->createUrl('dopostline') ?>" method="post" id="line_form" enctype="multipart/form-data">
+	<form id="line_form" action="/admin/dopostline" method="post" enctype="multipart/form-data">
 	<fieldset style="width:800px;padding-bottom:20px;">
 		<legend>增加路线</legend>
 		<ul id='form_ul'>
 			<input type="hidden" name="id" value="<?php echo !empty($data->id)?$data->id:'' ?>"/>
 			<li>标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 题:<input type="text" name="title" id="title" value="<?php echo !empty($data->title)?$data->title:'' ?>"/></li>
 			<li>交&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 通:<input type="text" name="traffic" size='114' id='traffic'/></li>
-			<li>出发日期:<input type="text" name="date" id='datd'/></li>
-			<li>旅行天数:<input type="text" name="day" id='day'/></li>
+			<li>出发日期:<input type="text" name="started" id='started'/></li>
+			<li>旅行天数:<input type="text" name="days" id='days'/></li>
 			<li>行程特色:<input type="text" name="feature" id='feature'/></li>
 			<li>行程包含:</li>
 			<li>
@@ -34,7 +34,7 @@
 				<ul>
 					<li class='text_area'>行程介绍:</li>
 					<li class='text_area'>
-						<textarea style="width:700px;height:200px;" name='introduced' id='editor' rows='30' cols='200'><?php echo !empty($data->introduced)?CHtml::decode($data->introduced):'' ?></textarea>
+						<textarea style="width:700px;height:200px;" name='introduce' id='editor' rows='30' cols='200'><?php echo !empty($data->introduce)?CHtml::decode($data->introduce):'' ?></textarea>
 					</li>
 					<li style="clear:both;"></li>
 				</ul>
@@ -47,7 +47,7 @@
 						echo CHtml::encode(Yii::app()->user->getFlash('uploadFile'));
 				 ?>
 			</div></li>
-			<li ><input style="width:60px;height:30px;border-radius:5px;display:block;margin: 0 auto;" type='submit' value='提交' id ="sub"/></li>
+			<li ><input style="width:60px;height:30px;border-radius:5px;display:block;margin: 0 auto;" type='submit' value='提交' id ="subline"/></li>
 		</ul>
 	</fieldset>
 	</form>

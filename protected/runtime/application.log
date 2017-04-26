@@ -4439,3 +4439,747 @@ Stack trace:
 REQUEST_URI=/assets/21895dd9/css/speak.css
 HTTP_REFERER=http://local.zjjlcm.com/admin/addline
 ---
+2017/04/26 22:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:24:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dopostline".' in D:\wwwroot\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(270): CController->missingAction('dopostline')
+#1 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('dopostline')
+#2 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/dopostlin...')
+#3 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/dopostline
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/26 22:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/26 22:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/26 22:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/26 22:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addarticle
+---
+2017/04/26 22:26:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:26:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:28:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:30:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:30:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:31:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:31:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:33:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:33:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:33:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:34:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:34:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:34:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:34:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:34:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:34:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/js/article.js".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/js/article.js
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=&linepic=
+---
+2017/04/26 22:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:35:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:35:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:36:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 22:37:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline?id=&title=hahahah&traffic=&date=&day=&feature=&include=&uninclude=&notice=&introduced=%3Cp%3Easfasdfasf%3C%2Fp%3E&linepic=psb+%281%29.jpg
+---
+2017/04/26 22:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:13:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:14:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:14:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "userlist".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('userlist')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/userlist
+---
+2017/04/26 23:15:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:15:54 [error] [php] Undefined index: pic (D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php:52)
+Stack trace:
+#0 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\wwwroot\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#2 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#3 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): AdminController->filterAuth()
+#4 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\wwwroot\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 D:\wwwroot\framework\web\CWebApplication.php(282): AdminController->run()
+#8 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\wwwroot\www.zjjlcm.com\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/dopostline
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (52)
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (62)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+2017/04/26 23:16:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:18:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:18:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values ('adfafafafda','<p>afafafafaf</p>','1_2017-04-26_5857730d991af4400e99c6d3' at line 1. The SQL statement executed was: insert into `app_line`(title,introduced,pic,updated,created values ('adfafafafda','<p>afafafafaf</p>','1_2017-04-26_5857730d991af4400e99c6d3612722c4.jpg','2017-04-26 23:18:26','2017-04-26 23:18:26'.
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (75)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+in D:\wwwroot\www.zjjlcm.com\index.php (13)
+2017/04/26 23:18:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values ('adfafafafda','<p>afafafafaf</p>','1_2017-04-26_5857730d991af4400e99c6d3' at line 1. The SQL statement executed was: insert into `app_line`(title,introduced,pic,updated,created values ('adfafafafda','<p>afafafafaf</p>','1_2017-04-26_5857730d991af4400e99c6d3612722c4.jpg','2017-04-26 23:18:26','2017-04-26 23:18:26'' in D:\wwwroot\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(75): CDbCommand->execute()
+#1 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionDoPostLine()
+#2 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#5 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#6 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('dopostline')
+#10 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/dopostlin...')
+#11 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/admin/dopostline
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:20:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values ('aaaaaaaaaaaa','<p>aaaaaaaaaaaaaaa</p>','1_2017-04-26_46df1ab43f2d49859c' at line 1. The SQL statement executed was: insert into `app_line`(title,introduce,pic,updated,created values ('aaaaaaaaaaaa','<p>aaaaaaaaaaaaaaa</p>','1_2017-04-26_46df1ab43f2d49859c2a9b814179d09e.jpg','2017-04-26 23:20:04','2017-04-26 23:20:04'.
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (75)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+in D:\wwwroot\www.zjjlcm.com\index.php (13)
+2017/04/26 23:20:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values ('aaaaaaaaaaaa','<p>aaaaaaaaaaaaaaa</p>','1_2017-04-26_46df1ab43f2d49859c' at line 1. The SQL statement executed was: insert into `app_line`(title,introduce,pic,updated,created values ('aaaaaaaaaaaa','<p>aaaaaaaaaaaaaaa</p>','1_2017-04-26_46df1ab43f2d49859c2a9b814179d09e.jpg','2017-04-26 23:20:04','2017-04-26 23:20:04'' in D:\wwwroot\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(75): CDbCommand->execute()
+#1 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionDoPostLine()
+#2 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#5 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#6 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('dopostline')
+#10 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/dopostlin...')
+#11 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/admin/dopostline
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:21:43 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values &lt;p&gt;aaaaaaaaaaaaaa&lt;/p&gt;'<p>aaaaaaaaaaaaaa</p>','1_2017-04-26_e9' at line 1. The SQL statement executed was: insert into `app_line`(title,introduce,pic,updated,created values &lt;p&gt;aaaaaaaaaaaaaa&lt;/p&gt;'<p>aaaaaaaaaaaaaa</p>','1_2017-04-26_e94acd2dee056727cd5259b0a204ec79.jpg','2017-04-26 23:21:43','2017-04-26 23:21:43'.
+in D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php (75)
+in D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php (93)
+in D:\wwwroot\www.zjjlcm.com\index.php (13)
+2017/04/26 23:21:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values &lt;p&gt;aaaaaaaaaaaaaa&lt;/p&gt;'<p>aaaaaaaaaaaaaa</p>','1_2017-04-26_e9' at line 1. The SQL statement executed was: insert into `app_line`(title,introduce,pic,updated,created values &lt;p&gt;aaaaaaaaaaaaaa&lt;/p&gt;'<p>aaaaaaaaaaaaaa</p>','1_2017-04-26_e94acd2dee056727cd5259b0a204ec79.jpg','2017-04-26 23:21:43','2017-04-26 23:21:43'' in D:\wwwroot\framework\db\CDbCommand.php:357
+Stack trace:
+#0 D:\wwwroot\www.zjjlcm.com\protected\controllers\AdminController.php(75): CDbCommand->execute()
+#1 D:\wwwroot\framework\web\actions\CInlineAction.php(49): AdminController->actionDoPostLine()
+#2 D:\wwwroot\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\wwwroot\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 D:\wwwroot\www.zjjlcm.com\protected\components\Controller.php(93): CFilterChain->run()
+#5 D:\wwwroot\framework\web\filters\CInlineFilter.php(58): Controller->filterAuth(Object(CFilterChain))
+#6 D:\wwwroot\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 D:\wwwroot\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\wwwroot\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\wwwroot\framework\web\CWebApplication.php(282): CController->run('dopostline')
+#10 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/dopostlin...')
+#11 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/admin/dopostline
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---
+2017/04/26 23:24:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/21895dd9/css/speak.css".' in D:\wwwroot\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/21895dd9...')
+#1 D:\wwwroot\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\www.zjjlcm.com\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/21895dd9/css/speak.css
+HTTP_REFERER=http://local.zjjlcm.com/admin/addline
+---

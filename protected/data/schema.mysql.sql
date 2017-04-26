@@ -31,3 +31,20 @@ CREATE TABLE app_strategy(
     created DATETIME not null,
     updated DATETIME not null default '0000-00-00 00:00:00'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE app_line(
+    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(128) NOT NULL,
+    introduce TEXT,
+    include TEXT,
+    uninclude TEXT,
+    notice TEXT,
+    started VARCHAR(128) NOT NULL DEFAULT '',
+    days VARCHAR(128) NOT NULL DEFAULT '',
+    feature VARCHAR(256) NOT NULL DEFAULT '',
+    traffic varchar(128) not NULL DEFAULT '',
+    created DATETIME NOT NULL,
+    updated DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+    praise INTEGER NOT NULL DEFAULT 0,
+    pic VARCHAR(128) NOT NULL DEFAULT 'default.jpg'
+);
