@@ -26,11 +26,25 @@ class AdminController extends Controller
 				array('label' => '增加文章' ,'url' =>'/admin/addarticle'),
 				array('label' => '文章列表','url'=>'/admin/articlelist'),
 			),
+			array(
+				'title' => '旅游路线',
+				'actions' => 'addline,linelist',
+				array('label' => '增加路线' ,'url' =>'/admin/addline'),
+				array('label' => '路线列表','url'=>'/admin/linelist'),
+			),
 		);
 	}
 	public function actionIndex()
 	{
 		$this->redirect('userlist');
+	}
+
+	public function actionAddLine(){
+		$this->render("addline");
+	}
+
+	public function actionLineList(){
+
 	}
 
 	public function actionAddArticle(){
