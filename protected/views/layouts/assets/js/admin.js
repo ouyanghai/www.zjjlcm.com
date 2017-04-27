@@ -175,3 +175,22 @@ function delcity(id){
 		},
 	});
 }
+function delline(id){
+	$.ajax({
+		type: 'post',
+		url: '/admin/delline',
+		dataType: 'json',
+		data: {'id':id},
+		success:function(data){
+			if(data != true){
+				alert('删除失败!');
+				return;
+			}
+			alert('删除成功');
+			window.location.reload();
+		},
+		error:function(){
+			alert('操作失败');
+		},
+	});
+}

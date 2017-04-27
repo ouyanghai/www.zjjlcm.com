@@ -8,33 +8,33 @@
 	#line_form li{margin-top:10px;}
 </style>
 <div class='post_border' style='margin-left:10px;'>
-	<form id="line_form" action="/admin/dopostline" method="post" enctype="multipart/form-data">
+	<form id="line_form" action="<?php echo !empty($data['id'])?'/admin/domodline':'/admin/dopostline' ?>/" method="post" enctype="multipart/form-data">
 	<fieldset style="width:800px;padding-bottom:20px;">
 		<legend>增加路线</legend>
 		<ul id='form_ul'>
-			<input type="hidden" name="id" value="<?php echo !empty($data->id)?$data->id:'' ?>"/>
-			<li>标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 题:<input type="text" name="title" id="title" value="<?php echo !empty($data->title)?$data->title:'' ?>"/></li>
-			<li>交&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 通:<input type="text" name="traffic" size='114' id='traffic'/></li>
-			<li>出发日期:<input type="text" name="started" id='started'/></li>
-			<li>旅行天数:<input type="text" name="days" id='days'/></li>
+			<input type="hidden" name="id" value="<?php echo !empty($data['id'])?$data['id']:'' ?>"/>
+			<li>标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 题:<input type="text" name="title" id="title" value="<?php echo !empty($data['title'])?$data['title']:'' ?>"/></li>
+			<li>交&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 通:<input type="text" name="traffic" size='114' id='traffic' value="<?php echo !empty($data['traffic'])?$data['traffic']:'' ?>"/></li>
+			<li>出发日期:<input type="text" name="started" id='started' value="<?php echo !empty($data['started'])?$data['started']:'' ?>"/></li>
+			<li>旅行天数:<input type="text" name="days" id='days' value="<?php echo !empty($data['days'])?$data['days']:'' ?>"/></li>
 			<li>行程特色:<input type="text" name="feature" id='feature'/></li>
 			<li>行程包含:</li>
 			<li>
-				<textarea style="width:700px;height:50px;" name='include' id='include' rows='30' cols='200'></textarea>
+				<textarea style="width:700px;height:50px;" name='include' id='include' rows='30' cols='200'><?php echo !empty($data['include'])?CHtml::decode($data['include']):'' ?></textarea>
 			</li>
 			<li>行程不包含:</li>
 			<li>
-				<textarea style="width:700px;height:50px;" name='uninclude' id='uninclude' rows='30' cols='200'></textarea>
+				<textarea style="width:700px;height:50px;" name='uninclude' id='uninclude' rows='30' cols='200'><?php echo !empty($data['unintroduce'])?CHtml::decode($data['unintroduce']):'' ?></textarea>
 			</li>
 			<li>注意事项:</li>
 			<li>
-				<textarea style="width:700px;height:50px;" name='notice' id='notice' rows='30' cols='200'></textarea>
+				<textarea style="width:700px;height:50px;" name='notice' id='notice' rows='30' cols='200'><?php echo !empty($data['notice'])?CHtml::decode($data['notice']):'' ?></textarea>
 			</li>
 			<li>
 				<ul>
 					<li class='text_area'>行程介绍:</li>
 					<li class='text_area'>
-						<textarea style="width:700px;height:200px;" name='introduce' id='editor' rows='30' cols='200'><?php echo !empty($data->introduce)?CHtml::decode($data->introduce):'' ?></textarea>
+						<textarea style="width:700px;height:200px;" name='introduce' id='editor' rows='30' cols='200'><?php echo !empty($data['introduce'])?CHtml::decode($data['introduce']):'' ?></textarea>
 					</li>
 					<li style="clear:both;"></li>
 				</ul>

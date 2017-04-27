@@ -42,9 +42,31 @@ class AdminController extends Controller
 	public function actionAddLine(){
 		$this->render("addline");
 	}
+	public function actionModLine(){
+		$id = $_GET['id'];
+		$command = Yii::app()->db->createCommand();
+		$sql = "select * from `app_line` where id='{$id}'";
+		$result = $command->setText($sql)->queryRow();
+		$this->render("addline",array('data'=>$result));
+	}
+
+	public function actionDelLine(){
+		$id = $_POST['id'];
+		$command = Yii::app()->db->createCommand();
+		$sql = "delete from `app_line` where id='{$id}'";
+		$num = $command->setText($sql)->execute();
+		if($num>0){
+			echo json_encode(true);
+			exit;
+		}
+		echo json_encode(false);
+	}
 
 	public function actionLineList(){
-
+		$command = Yii::app()->db->createCommand();
+		$sql = "select id,title from `app_line`";
+		$result = $command->setText($sql)->queryAll();
+		$this->render("linelist",array('data'=>$result));
 	}
 
 	public function actionDoPostLine(){
@@ -72,6 +94,31 @@ class AdminController extends Controller
 		$values .= "'{$pic}','{$updated}','{$created}')";
 		$command = Yii::app()->db->createCommand();
 		$sql = "insert into `app_line`{$params} values {$values}";
+		$command->setText($sql)->execute();
+		$this->redirect('/admin/linelist');
+	}
+	public function actionDoModLine(){
+		$params = "";
+		foreach ($_POST as $key => $val) {
+			if($val!="" && $key!="id"){
+				if($key=='introduce' ||$key=='include' ||$key=='uninclude' ||$key=='notice'){
+					$val = htmlspecialchars($val);
+				}
+				$params .= "{$key}='{$val}',";
+			}
+		}	
+		$pic = $this->uploadFile('line');
+		if(empty($pic)){
+			Yii::app()->user->setFlash('uploadFile','文件上传失败!');
+			$this->redirect('/admin/addline');
+			exit;
+		}
+		$id = $_POST['id'];
+		$pic = $pic[0];
+		$updated = date('Y-m-d H:i:s',time());
+		$params .= "pic='{$pic}',updated='{$updated}'";
+		$command = Yii::app()->db->createCommand();
+		$sql = "update `app_line` set {$params} where id='{$id}'";
 		$command->setText($sql)->execute();
 		$this->redirect('/admin/linelist');
 	}
