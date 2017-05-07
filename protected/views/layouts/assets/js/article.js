@@ -48,6 +48,25 @@ $(function(){
 			return false;
 		}
 	});
+	$("#sub").click(function(event){
+		var content='';
+		var title = $("#title").val();
+		if(title==''){content = "标题 ";}
+
+		var ue = UE.getEditor("editor").hasContents();
+		if(!ue){content +="文章内容 ";}
+
+		var file = $("#pic").val();
+		if(file==''){content += "图片 ";}
+
+		content += '不能为空';
+
+		if(!sub || title=='' || ue==false || file==''){
+			alert(content);
+			event.preventDefault();
+			return false;
+		}
+	});
 })
 
 function speakDel(id){

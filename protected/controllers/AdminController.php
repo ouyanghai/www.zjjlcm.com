@@ -14,12 +14,14 @@ class AdminController extends Controller
 				array('label' => '增加用户', 'url' => '/admin/adduser'),
 				array('label' => '用户列表', 'url' => '/admin/userlist'),
 			),
+			/*
 			array(
 				'title' => '城市攻略',
 				'actions' => 'createcity,citylist',
 				array('label' => '增加城市' ,'url' =>'/admin/createcity'),
 				array('label' => '城市列表','url'=>'/admin/citylist'),
 			),
+			*/
 			array(
 				'title' => '攻略文章',
 				'actions' => 'addarticle,articlelist',
@@ -124,13 +126,70 @@ class AdminController extends Controller
 	}
 
 	public function actionAddArticle(){
+		$this->render("addarticle");
+	}
+
+	public function actionDelArticle(){
+		$id = $_POST['id'];
 		$command = Yii::app()->db->createCommand();
-		$res = $command->setText("select * from `app_city`")->queryAll();
-		$this->render("addarticle",array("data"=>$res));
+		$sql = "delete from `app_strategy` where id={$id}";
+		$num = $command->setText($sql)->execute();
+		if($num>0){
+			echo json_encode(true);
+			exit;
+		}
+		echo json_encode(false);
+		exit;
 	}
 
 	public function actionArticleList(){
+		$command = Yii::app()->db->createCommand();
+		$sql = "select id,name,updated from `app_strategy`";
+		$result = $command->setText($sql)->queryAll();
+		$this->render("articlelist",array('data'=>$result));
+	}
+
+	public function actionDoPostArticle(){
+		$command = Yii::app()->db->createCommand();
+		$params = "(";
+		$values = "(";
+			
+		$pic = $this->uploadFile('article');
+		if(empty($pic)){
+			Yii::app()->user->setFlash('uploadFile','文件上传失败!');
+			$this->redirect('/admin/addarticle');
+			exit;
+		}
+		$pic = $pic[0];
+		$updated = date('Y-m-d H:i:s',time());
+		if(!empty($_POST['id'])){
+			$id = $_POST['id'];
+			$content = htmlspecialchars($_POST['content']);
+			$name = $_POST['name'];
+			$sql= "update `app_strategy` set pic='{$pic}',name='{$name}',content='{$content}',updated='{$updated}' where id={$id}";
+			$command->setText($sql)->execute();
+			$this->redirect('/admin/articlelist');
+			exit;
+		}
+
+		foreach ($_POST as $key => $val) {
+			if($val!=""){
+				$params .= $key.",";
+				if($key=='content'){
+					$val = htmlspecialchars($val);
+				}
+				$values .= "'{$val}',";
+			}
+		}
+
+		$created = date('Y-m-d H:i:s',time());
+		$params .= "pid,pic,updated,created)";
+		$values .= "0,'{$pic}','{$updated}','{$created}')";
 		
+		$sql = "insert into `app_strategy`{$params} values {$values}";
+		$command->setText($sql)->execute();
+
+		$this->redirect('/admin/articlelist');
 	}
 
 	public function actionUserList(){
@@ -271,7 +330,7 @@ class AdminController extends Controller
 	
 	public function actionCityList(){
 		$command = Yii::app()->db->createCommand();
-		$sql = "select * from `app_city` order by id";
+		$sql = "select id,name,created from `app_city` order by id";
 		$res = $command->setText($sql)->queryAll();
 		$this->render("citylist",array("data"=>$res));
 	}
@@ -306,6 +365,39 @@ class AdminController extends Controller
 			exit;	
 		}
 		$this->render("modcity",array("data"=>$res));
+	}
+
+	public function actionModArticle($id){
+		if(empty($_GET['id'])){
+			$this->redirect("admin/articlelist");
+			exit;
+		}
+		$id = $_GET['id'];
+		$command = Yii::app()->db->createcommand();
+		$sql = "select * from `app_strategy` where id='{$id}'";
+		$res = $command->setText($sql)->queryRow();
+		if(empty($res)){
+			$this->redirect("/admin/articlelist");
+			exit;	
+		}
+
+		$this->render("addarticle",array("data"=>$res));
+	}
+	public function actionDoModArticle(){
+		if(empty($_POST)){
+			echo json_encode(false);
+			exit;
+		}
+		$id = $_POST['id'];
+		$name = $_POST['name'];
+		$command = Yii::app()->db->createCommand();
+		$sql = "update `app_city` set name='{$name}' where id='{$id}'";
+		$num = $command->setText($sql)->execute();
+		if($num>0){
+			echo json_encode(true);
+			exit;
+		}
+		echo json_encode(false);
 	}
 	public function actionDoModcity(){
 		if(empty($_POST)){

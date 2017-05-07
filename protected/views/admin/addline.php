@@ -8,7 +8,7 @@
 	#line_form li{margin-top:10px;}
 </style>
 <div class='post_border' style='margin-left:10px;'>
-	<form id="line_form" action="<?php echo !empty($data['id'])?'/admin/domodline':'/admin/dopostline' ?>/" method="post" enctype="multipart/form-data">
+	<form id="line_form" action="<?php echo !empty($data['id'])?'/admin/domodline':'/admin/dopostline' ?>" method="post" enctype="multipart/form-data">
 	<fieldset style="width:800px;padding-bottom:20px;">
 		<legend>增加路线</legend>
 		<ul id='form_ul'>

@@ -11,7 +11,6 @@ class WebController extends TopController{
 			array("label"=>"景点图库","class"=>"","id"=>"","url"=>$this->createUrl('pic')),
 			array("label"=>"旅游攻略","class"=>"","id"=>"","url"=>$this->createUrl('strategy')),
 		);
-		
 	}
 
 	public function actionCompany(){
@@ -20,13 +19,19 @@ class WebController extends TopController{
 	}
 
 	public function actionTejia(){
-		$this->render("tejia");
+		$command = Yii::app()->db->createCommand();
+		$sql = "select id,title,pic,started,days from `app_line`";
+		$res = $command->setText($sql)->queryAll();
+		$num = count($res);
+		$this->render("tejia",array('num'=>$num,'data'=>$res));
 	}
 
 	public function actionLine(){
-		$line = $_GET['reg'];
-		$file = "line_".$line;
-		$this->render($file);
+		$id = $_GET['id'];
+		$command = Yii::app()->db->createCommand();
+		$sql = "select * from `app_line` where id={$id}";
+		$res = $command->setText($sql)->queryRow();
+		$this->render("line",array('data'=>$res));
 	}
 	
 	public function actionView(){
