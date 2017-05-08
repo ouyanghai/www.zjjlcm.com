@@ -44,7 +44,7 @@ class WebController extends TopController{
 
 	public function actionStrategy(){
 		$command = Yii::app()->db->createCommand();
-		$sql = "select * from `app_strategy`";
+		$sql = "select * from `app_strategy` order by created desc";
 		$result = $command->setText($sql)->queryAll();
 		$this->render("strategy",array('data'=>$result));
 	}
@@ -54,7 +54,17 @@ class WebController extends TopController{
 		$command = Yii::app()->db->createCommand();
 		$sql = "select * from `app_strategy` where id={$id}";
 		$result = $command->setText($sql)->queryRow();
-		$this->render("article",array('data'=>$result));
+		$pid = $id-1;
+		$nid = $id+1;
+		$prev = $command->setText("select id,name from `app_strategy` where id={$pid}")->queryRow();
+		$next = $command->setText("select id,name from `app_strategy` where id={$nid}")->queryRow();
+		if(empty($prev)){
+			$prev = "";
+		}
+		if(empty($next)){
+			$next = "";
+		}
+		$this->render("article",array('data'=>$result,'prev'=>$prev,'next'=>$next));
 	}
 
 	public function actionIndex(){

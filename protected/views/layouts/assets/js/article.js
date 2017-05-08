@@ -50,7 +50,7 @@ $(function(){
 	});
 	$("#sub").click(function(event){
 		var content='';
-		var title = $("#title").val();
+		var title = $("#name").val();
 		if(title==''){content = "标题 ";}
 
 		var ue = UE.getEditor("editor").hasContents();
