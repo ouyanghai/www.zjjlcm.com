@@ -41,7 +41,7 @@ $(function(){
 		if(file==''){content += "图片 ";}
 
 		content += '不能为空';
-
+		
 		if(!sub || title=='' || ue==false || file==''){
 			alert(content);
 			event.preventDefault();

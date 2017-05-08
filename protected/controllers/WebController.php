@@ -43,7 +43,18 @@ class WebController extends TopController{
 	}
 
 	public function actionStrategy(){
-		$this->render("strategy");
+		$command = Yii::app()->db->createCommand();
+		$sql = "select * from `app_strategy`";
+		$result = $command->setText($sql)->queryAll();
+		$this->render("strategy",array('data'=>$result));
+	}
+
+	public function actionArticle(){
+		$id = !empty($_GET['id']) && is_numeric($_GET['id']) && $_GET['id']>0 ? $_GET['id'] : 1;
+		$command = Yii::app()->db->createCommand();
+		$sql = "select * from `app_strategy` where id={$id}";
+		$result = $command->setText($sql)->queryRow();
+		$this->render("article",array('data'=>$result));
 	}
 
 	public function actionIndex(){

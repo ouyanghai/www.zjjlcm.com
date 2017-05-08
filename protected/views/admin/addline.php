@@ -18,6 +18,7 @@
 			<li>出发日期:<input type="text" name="started" id='started' value="<?php echo !empty($data['started'])?$data['started']:'' ?>"/></li>
 			<li>旅行天数:<input type="text" name="days" id='days' value="<?php echo !empty($data['days'])?$data['days']:'' ?>"/></li>
 			<li>行程特色:<input type="text" name="feature" id='feature'/></li>
+			<!--
 			<li>行程包含:</li>
 			<li>
 				<textarea style="width:700px;height:50px;" name='include' id='include' rows='30' cols='200'><?php echo !empty($data['include'])?CHtml::decode($data['include']):'' ?></textarea>
@@ -28,8 +29,9 @@
 			</li>
 			<li>注意事项:</li>
 			<li>
-				<textarea style="width:700px;height:50px;" name='notice' id='notice' rows='30' cols='200'><?php echo !empty($data['notice'])?CHtml::decode($data['notice']):'' ?></textarea>
+				<textarea style="width:700px;height:50px;" wrap="hard" name='notice' id='notice' rows='30' cols='200'><?php echo !empty($data['notice'])?CHtml::decode($data['notice']):'' ?></textarea>
 			</li>
+			-->
 			<li>
 				<ul>
 					<li class='text_area'>行程介绍:</li>

@@ -78,7 +78,7 @@
             </div>
             <div class="detail-item-cont">
                 <div class="jour-box">
-					<?php echo CHtml::decode($data['introduce']); ?>
+					<?php echo htmlspecialchars_decode($data['introduce']); ?>
 				</div>
             </div>
         </div>
@@ -92,7 +92,9 @@
             </div>
             <div class="detail-item-cont">
                 <div class="detail-field">
-                    <div class="detail-inf-txt"></div>
+                    <div class="detail-inf-txt">
+                    	<?php echo htmlspecialchars_decode($data['include']); ?>
+                    </div>
                 </div> 
             </div>
         </div>        
@@ -105,7 +107,9 @@
               </div>
               <div class="detail-item-cont">
                   <div class="detail-field">
-                      <div class="detail-inf-txt"></div>
+                      <div class="detail-inf-txt">
+                      	<?php echo CHtml::decode($data['uninclude']); ?>
+                      </div>
                   </div>
               </div>
         </div>                                                
@@ -120,7 +124,8 @@
     		<div class="detail-item-cont">
       			<div class="detail-field">
                     <div class="detail-inf-txt">
-                    	<span style="color:#006600;"><strong>如确定参加线路后，请您提前预订行程，预订方式有：</strong></span><br />
+                    	<span style="color:#006600;"><strong>如确定参加线路后，请您提前预订行程，预订方式有：
+                    	</strong></span><br />
 						<strong><span style="color:#006600;">A、</span></strong>电话预订：直接拨打免费专线 400-880-7433，告知您的线路、人数、抵达车次/航班及日期；<br />
 						<strong><span style="color:#006600;">B、</span></strong>在线预订：直接点击在线预订按钮：旅游顾问，告知您的线路、人数、抵达时间等信息；<br />
 						票务预定： 我社可为游客代订往返各地的飞机票、火车票；<br />
