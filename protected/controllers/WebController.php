@@ -2,6 +2,7 @@
 class WebController extends TopController{
 	public $menu =array();
 	public function init(){
+		header("content-type:text/html; charset=utf-8");
 		parent::init();
 		$this->layout = "//layouts/web";
 		$this->menu = array(

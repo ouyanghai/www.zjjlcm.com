@@ -5,6 +5,7 @@ class AdminController extends Controller
 	public $menu = array();
 
 	public function init(){
+		header("content-type:text/html; charset=utf-8"); 
 		parent::init();
 		$this->layout='//layouts/admin';
 		$this->menu = array(

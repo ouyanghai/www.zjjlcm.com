@@ -10,7 +10,7 @@ CREATE TABLE app_user (
     email VARCHAR(128) NOT NULL default '',
     created DATETIME NOT NULL,
     updated DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00'
-);
+)ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 #密码和用户名一样 
 INSERT into app_user(username,password,email,created) values('zjjlcm168','376b90c01d249dc26c28a09b0c805634',"a@b.com",now());
 
@@ -19,7 +19,7 @@ CREATE TABLE app_city(
     name VARCHAR(128) NOT NULL,
     state tinyint(1) not null default '0',
     created DATETIME NOT NULL
-)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+)ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE app_strategy(
     id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -30,7 +30,7 @@ CREATE TABLE app_strategy(
     pic VARCHAR(128) NOT NULL,
     created DATETIME not null,
     updated DATETIME not null default '0000-00-00 00:00:00'
-)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+)ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 CREATE TABLE app_line(
     id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -47,4 +47,4 @@ CREATE TABLE app_line(
     updated DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
     praise INTEGER NOT NULL DEFAULT 0,
     pic VARCHAR(128) NOT NULL DEFAULT 'default.jpg'
-);
+)ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

@@ -1,6 +1,6 @@
 <html>
 <head>
-	<meta http-equiv="Content-type" content="text/html charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 	<script src="<?php echo $this->assets['app']; ?>/js/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo $this->assets['app']; ?>/js/admin.js"></script>
