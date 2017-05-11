@@ -81,7 +81,11 @@ class AdminController extends Controller
 				if($key=='introduce' ||$key=='include' ||$key=='uninclude' ||$key=='notice'){
 					$val = htmlspecialchars($val);
 				}
-				$values .= "'{$val}',";
+				if($key == 'price'){
+					$values .= "{$val},";	
+				}else{
+					$values .= "'{$val}',";	
+				}
 			}
 		}	
 		$pic = $this->uploadFile('line');

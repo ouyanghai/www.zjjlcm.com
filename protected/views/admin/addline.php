@@ -15,6 +15,7 @@
 			<input type="hidden" name="id" value="<?php echo !empty($data['id'])?$data['id']:'' ?>"/>
 			<li>标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 题:<input type="text" name="title" id="title" value="<?php echo !empty($data['title'])?$data['title']:'' ?>"/></li>
 			<li>交&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 通:<input type="text" name="traffic" size='114' id='traffic' value="<?php echo !empty($data['traffic'])?$data['traffic']:'' ?>"/></li>
+			<li>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 格:<input type="text" name="price" size='114' id='price' value="<?php echo !empty($data['price'])?$data['price']:'' ?>"/></li>
 			<li>出发日期:<input type="text" name="started" id='started' value="<?php echo !empty($data['started'])?$data['started']:'' ?>"/></li>
 			<li>旅行天数:<input type="text" name="days" id='days' value="<?php echo !empty($data['days'])?$data['days']:'' ?>"/></li>
 			<li>行程特色:<input type="text" name="feature" id='feature'/></li>
