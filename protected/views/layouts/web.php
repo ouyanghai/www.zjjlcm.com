@@ -9,7 +9,7 @@
 <meta name="keywords" content="旅游网">
 <script src="<?php echo $this->assets['app']; ?>/js/jquery.min.js"></script>
 <script src="<?php echo $this->assets['app']; ?>/js/public.min.js"></script>
-<script language="javascript" src="http://pht.zoosnet.net/JS/LsJS.aspx?siteid=PHT93937523&float=1&lng=cn"></script>
+<script language="javascript" src="http://byt.zoosnet.net/JS/LsJS.aspx?siteid=BYT51845438&float=1&lng=cn"></script>
 <script type="text/javascript" src="<?php echo $this->assets['app']; ?>/js/shouye.js"></script>
 <link href="<?php echo $this->assets['app']; ?>/css/base.css" rel="stylesheet" type="text/css"/>
 <link href="<?php echo $this->assets['app']; ?>/css/index.css" rel="stylesheet" type="text/css">
@@ -44,8 +44,9 @@
 	echo $content;
 	?>
 
-<div class="copyright"> Copyright <a href="/shan2015/ad_login.asp" target="_blank"  class="copyright">&copy;</a> 2015　<font color="#FFFFFF">驴参谋</font>　版权所有 yncitsyn 007010 
-<a href="<?php echo $this->createUrl('company',array('act'=>'about')) ?>"  class="copyright">关于我们</a> <a href="<?php echo $this->createUrl('company',array('act'=>'connect')) ?>"  class="copyright">联系我们</a>
+<div class="copyright"> Copyright <a href="/shan2015/ad_login.asp" target="_blank"  class="copyright">&copy;</a> 2017　<font color="#FFFFFF">驴参谋</font>　版权所有 zjjlcm 
+<a href="<?php echo $this->createUrl('company',array('act'=>'about')) ?>"  class="copyright">关于我们</a>&nbsp; <a href="<?php echo $this->createUrl('company',array('act'=>'connect')) ?>"  class="copyright">联系我们</a><br/>
+<span>张家界魅力湘西国际旅行社有限责任公司武陵源营业部&nbsp;&nbsp;&nbsp;&nbsp;湘ICP备17008510号</span>
 </div>
 
 

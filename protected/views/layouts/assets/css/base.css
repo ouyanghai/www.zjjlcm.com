@@ -129,7 +129,7 @@ textarea { resize: none;}
 .footer .foot-nav a{ color:#FFF; display:inline-block; padding:0 5px;}
 .footer .foot-inf{ padding-top:15px; padding-left:5px; line-height:24px;}
 .footer .work-time{ color:#b2d7c1;}
-.copyright{ background:#FFF; height:40px; line-height:40px; text-align:center; font-size:12px; color:#999;}
+.copyright{ background:#FFF; height:100px; line-height:40px; text-align:center; font-size:12px; color:#999;}
 .copyright a{ color:#666;}
 /*why*/
 .why-box{ background:#ebebec; margin-bottom:40px;}

@@ -39,6 +39,7 @@ CREATE TABLE app_line(
     include TEXT,
     uninclude TEXT,
     notice TEXT,
+    price double(9,2) not null default 0,
     started VARCHAR(128) NOT NULL DEFAULT '',
     days VARCHAR(128) NOT NULL DEFAULT '',
     feature VARCHAR(256) NOT NULL DEFAULT '',

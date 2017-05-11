@@ -241,7 +241,7 @@
 <script>
 $(function(){
 
-	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a href=\"http://det.zoosnet.net/LR/Chatpre.aspx?id=DET24051751&lng=cn\" class=\"btn btn-kf\"></a><a href=\"tencent://Message/?Uin=2853327850&websiteName=/=&Menu=yes\" class=\"btn btn-qq\"></a><div class=\"btn btn-phone\"><div class=\"phone\">177 5265 2621</div></div><div class=\"btn btn-top\"></div></div>";
+	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a href=\"http://byt.zoosnet.net/JS/LsJS.aspx?siteid=BYT51845438&float=1&lng=cn\" class=\"btn btn-kf\"></a><a href=\"tencent://Message/?Uin=1005725147&websiteName=/=&Menu=yes\" class=\"btn btn-qq\"></a><div class=\"btn btn-phone\"><div class=\"phone\">177 5265 2621</div></div><div class=\"btn btn-top\"></div></div>";
 	$("#top").html(tophtml);
 	$("#izl_rmenu").each(function(){
 		$(this).find(".btn-wx").mouseenter(function(){
