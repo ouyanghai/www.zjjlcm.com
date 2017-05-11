@@ -47,7 +47,7 @@
                   	<div class="ln-highlight">
                       	<p class="hh-tt"><strong>行程特色</strong></p>
                       	<div class="ln-highlight-cont"><p>
-							<span style="background-color:#FFFFFF;color:#333333;font-family:微软雅黑;font-size:20px;line-height:29px;"><?php echo $data['title']; ?></span> 
+							<span style="background-color:#FFFFFF;color:#333333;font-family:微软雅黑;font-size:20px;line-height:29px;"><?php echo $data['feature']; ?></span> 
 							</p>
 						</div>
                   	</div>

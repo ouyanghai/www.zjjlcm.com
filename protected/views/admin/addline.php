@@ -18,7 +18,7 @@
 			<li>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 格:<input type="text" name="price" size='114' id='price' value="<?php echo !empty($data['price'])?$data['price']:'' ?>"/></li>
 			<li>出发日期:<input type="text" name="started" id='started' value="<?php echo !empty($data['started'])?$data['started']:'' ?>"/></li>
 			<li>旅行天数:<input type="text" name="days" id='days' value="<?php echo !empty($data['days'])?$data['days']:'' ?>"/></li>
-			<li>行程特色:<input type="text" name="feature" id='feature'/></li>
+			<li>行程特色:<input type="text" name="feature" id='feature'  value="<?php echo !empty($data['feature'])?$data['feature']:'' ?>"/></li>
 			<!--
 			<li>行程包含:</li>
 			<li>
