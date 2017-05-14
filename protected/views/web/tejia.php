@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="d-j-price">
                                         <span class="price">￥ <strong>电话咨询</strong>&nbsp;</span>
-                                        <span class="c9" ><font color="#FF0000">(不含往返机票或火车)</font> 已有9098人关注</span>
+                                        <span class="c9" ><font color="#FF0000">(不含往返机票或火车)</font></span>
                                     </div>                                
                                 </div>
                                 <!--

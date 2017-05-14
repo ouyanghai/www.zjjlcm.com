@@ -23,8 +23,15 @@ class WebController extends TopController{
 		$command = Yii::app()->db->createCommand();
 		$sql = "select id,title,pic,started,days from `app_line`";
 		$res = $command->setText($sql)->queryAll();
-		$num = count($res);
-		$this->render("tejia",array('num'=>$num,'data'=>$res));
+		$result = array();
+		foreach ($res as $key => $value) {
+			$num = preg_match("/\d+/", $value['days'],$arr);
+			if(!$num || $arr[0]<4){
+				array_push($result, $res[$key]);
+			}
+		}
+		$num = count($result);
+		$this->render("tejia",array('num'=>$num,'data'=>$result));
 	}
 
 	public function actionLine(){
@@ -36,18 +43,53 @@ class WebController extends TopController{
 	}
 	
 	public function actionView(){
-		$this->render("view");
+		$command = Yii::app()->db->createCommand();
+		$sql = "select id,title,pic,started,days from `app_line`";
+		$res = $command->setText($sql)->queryAll();
+		$result = array();
+		foreach ($res as $key => $value) {
+			$num = preg_match("/\d+/", $value['days'],$arr);
+			if($num && $arr[0]>3){
+				array_push($result, $res[$key]);
+			}
+		}
+		$num = count($result);
+		$this->render("view",array('num'=>$num,'data'=>$result));
 	}
 
 	public function actionPic(){
-		$this->render("pic");
+		$command = Yii::app()->db->createCommand();
+		$page = !empty($_GET['page'])&&is_numeric($_GET['page']) ?$_GET['page'] : 1;
+		$page  = $page > 0 ? $page : 1;
+		$size = 10;
+		$pages = $command->setText("select id from `app_strategy`")->queryAll();
+		$pages = ceil(count($pages)/$size);
+		$page = $page >$pages ? $pages : $page;
+
+		$start = ($page-1)*$size;
+		
+		$sql = "select * from `app_strategy` order by created desc limit {$start},{$size}";
+		$result = $command->setText($sql)->queryAll();
+		
+		$this->render("pic",array('data'=>$result,'pages'=>$pages,'page'=>$page));
 	}
 
 	public function actionStrategy(){
 		$command = Yii::app()->db->createCommand();
-		$sql = "select * from `app_strategy` order by created desc";
+		$page = !empty($_GET['page'])&&is_numeric($_GET['page']) ?$_GET['page'] : 1;
+		$page  = $page > 0 ? $page : 1;
+		$size = 10;
+
+		$pages = $command->setText("select id from `app_strategy`")->queryAll();
+		$pages = ceil(count($pages)/$size);
+		$page = $page >$pages ? $pages : $page;
+		
+		$start = ($page-1)*$size;
+		
+		$sql = "select * from `app_strategy` order by created desc limit {$start},{$size}";
 		$result = $command->setText($sql)->queryAll();
-		$this->render("strategy",array('data'=>$result));
+		
+		$this->render("strategy",array('data'=>$result,'pages'=>$pages,'page'=>$page));
 	}
 
 	public function actionArticle(){

@@ -38,5 +38,13 @@
           </div>
         </div>
     </div>
+    <div class="page-box">
+            <div class="page-field">
+                <a href='/web/strategy?page=1' >首页</a>&nbsp;
+                <a href='/web/strategy?page=<?php echo $page-1; ?>' class='UpPage'>上一页</a>&nbsp;
+                <a href='/web/strategy?page=<?php echo $page+1; ?>' class='NextPage'>下一页</a>&nbsp;
+                <a href='/web/strategy?page=<?php echo $pages; ?>' >尾页</a> <a>页次：<?php echo $page."/".$pages; ?>页 10条/页</a>
+            </div>
+    </div>  
 </div>
 

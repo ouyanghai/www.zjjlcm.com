@@ -1,20 +1,17 @@
-
+<style type="text/css">
+#pic_list img{width:100%;height:100%;}
+</style>
 	<div class="index-banner-box">
-	   
 		<div class="index-banner-list">
 	    	<ul id="pic_list" class="banner-pic">
 				<li>
-			        <a href="<?php echo $this->createUrl("tejia"); ?>" target="_blank"><img src="http://www.yncits006.com/images/in01.jpg" ></a>
-			        <div class="index-banner-txt"><a href="<?php echo $this->createUrl("tejia"); ?>" target="_blank">2017 咱们旅游吧！</a></div>
+			        <a href="<?php echo $this->createUrl("tejia"); ?>" target="_blank"><img src="<?php echo $this->assets['app']; ?>/images/banner1.jpg" ></a>
 			    </li> <li style="display:none;">
-			        <a href="<?php echo $this->createUrl("view"); ?>" target="_blank"><img src="http://www.yncits006.com/images/in02.jpg" ></a>
-			        <div class="index-banner-txt"><a href="<?php echo $this->createUrl("view"); ?>" target="_blank">圆梦之旅 彩云之南</a></div>
+			        <a href="<?php echo $this->createUrl("view"); ?>" target="_blank"><img src="<?php echo $this->assets['app']; ?>/images/banner2.jpg" ></a>
 			    </li> <li style="display:none;">
-			        <a href="<?php echo $this->createUrl("pic"); ?>" target="_blank"><img src="http://www.yncits006.com/images/in04.jpg"/></a>
-			        <div class="index-banner-txt"><a href="<?php echo $this->createUrl("pic"); ?>" target="_blank" >我在丽江等您哟！</a></div>
+			        <a href="<?php echo $this->createUrl("pic"); ?>" target="_blank"><img src="<?php echo $this->assets['app']; ?>/images/banner3.jpg"/></a>
 			    </li><li style="display:none;">
-			        <a href="<?php echo $this->createUrl("strategy"); ?>" target="_blank"><img src="http://www.yncits006.com/images/in05.jpg"/></a>
-			        <div class="index-banner-txt"><a href="<?php echo $this->createUrl("strategy"); ?>" target="_blank">离天很近的地方</a></div>
+			        <a href="<?php echo $this->createUrl("strategy"); ?>" target="_blank"><img src="<?php echo $this->assets['app']; ?>/images/banner4.jpg"/></a>
 			   
 			</ul>
 			<ol id="control_list" class="flex-control-nav">
@@ -28,46 +25,8 @@
 
 	<div class="index-container-box">
 		<!-- index-container start -->
-	    <div class="index-container">
-	        <div class="index-popular-box r10 clearfix">
-				<div class="popular-right">
-				    <ul class="popu-list">
-				        <li>
-				            <a class="popu-item" href="javascript:;">
-				                <img class="lazy" src="http://www.yncits006.com/images/lj.jpg" original="http://www.yncits006.com/images/lj.jpg" alt="丽江"/>
-				                <span class="popu-intro"><strong class="popu-name">丽江</strong></span></a></li>
-				        <li>
-				            <a class="popu-item" href="javascript:;">
-				                <img class="lazy" src="http://www.yncits006.com/images/dl.jpg" original="http://www.yncits006.com/images/dl.jpg" alt="大理 双廊"/>
-				                <span class="popu-intro"><strong class="popu-name">大理 双廊</strong></span></a></li>
-				        <li>
-				            <a class="popu-item" href="javascript:;">
-				                <img class="lazy" src="http://www.yncits006.com/images/lgh.jpg" original="http://www.yncits006.com/images/lgh.jpg" alt="泸沽湖"/>
-				                <span class="popu-intro"><strong class="popu-name">泸沽湖</strong></span></a></li>
-				       
-				       <li>
-				            <a class="popu-item" href="javascript:;">
-				                <img class="lazy" src="http://www.yncits006.com/images/xgll.jpg" original="http://www.yncits006.com/images/xgll.jpg" alt="香格里拉"/>
-				                <span class="popu-intro"><strong class="popu-name">香格里拉</strong></span></a></li>
-						<li>
-				            <a class="popu-item" href="javascript:;">
-				                <img class="lazy" src="http://www.yncits006.com/images/xsbn.jpg" original="http://www.yncits006.com/images/xsbn.jpg" alt="西双版纳"/>
-				                <span class="popu-intro"><strong class="popu-name">西双版纳</strong></span></a></li>
-				       <li>
-				            <a class="popu-item" href="javascript:;">
-				                <img class="lazy" src="http://www.yncits006.com/images/shiling.jpg" original="http://www.yncits006.com/images/shiling.jpg" alt="腾冲"/>
-				                <span class="popu-intro"><strong class="popu-name">腾冲</strong></span></a></li>
-				        <li>
-				            <a class="popu-item" href="javascript:;">
-				                <img class="lazy" src="http://www.yncits006.com/images/bty.jpg" original="http://www.yncits006.com/images/bty.jpg" alt="瑞丽"/>
-				                <span class="popu-intro"><strong class="popu-name">瑞丽</strong></span></a></li>
-				       <li>
-				            <a class="popu-item" href="javascript:;">
-				                <img class="lazy" src="http://www.yncits006.com/images/myy.jpg" original="http://www.yncits006.com/images/myy.jpg" alt="云南"/>
-				                <span class="popu-intro"><strong class="popu-name">云南</strong></span></a></li>
-				    </ul>
-				</div>        
-			</div>
+	    <div class="index-container" style="margin-top:5px;">
+	        <img width='1200' src="<?php echo $this->assets['app']; ?>/images/b_banner.jpg">
 	    </div>
 	    <!-- index-container end -->
 	    <!-- index-container start -->
