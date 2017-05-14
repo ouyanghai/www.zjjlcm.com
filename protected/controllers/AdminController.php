@@ -115,15 +115,21 @@ class AdminController extends Controller
 			}
 		}	
 		$pic = $this->uploadFile('line');
-		if(empty($pic)){
-			Yii::app()->user->setFlash('uploadFile','文件上传失败!');
-			$this->redirect('/admin/addline');
-			exit;
+		if($pic==false){
+			//Yii::app()->user->setFlash('uploadFile','文件上传失败!');
+			//$this->redirect('/admin/addline');
+			//exit;
+			$pic = "";
+		}else{
+			$pic = $pic[0];	
 		}
 		$id = $_POST['id'];
-		$pic = $pic[0];
 		$updated = date('Y-m-d H:i:s',time());
-		$params .= "pic='{$pic}',updated='{$updated}'";
+		if($pic == ""){
+			$params .= "updated='{$updated}'";
+		}else{
+			$params .= "pic='{$pic}',updated='{$updated}'";	
+		}
 		$command = Yii::app()->db->createCommand();
 		$sql = "update `app_line` set {$params} where id='{$id}'";
 		$command->setText($sql)->execute();
@@ -160,23 +166,29 @@ class AdminController extends Controller
 		$values = "(";
 			
 		$pic = $this->uploadFile('article');
-		if(empty($pic)){
+		if(empty($pic) && empty($_POST['id'])){
 			Yii::app()->user->setFlash('uploadFile','文件上传失败!');
 			$this->redirect('/admin/addarticle');
 			exit;
 		}
-		$pic = $pic[0];
+
 		$updated = date('Y-m-d H:i:s',time());
 		if(!empty($_POST['id'])){
 			$id = $_POST['id'];
+			if($pic==false){
+				$pic = "";
+			}else{
+				$pic = "pic='{$pic}',";
+			}
 			$content = htmlspecialchars($_POST['content']);
 			$name = $_POST['name'];
-			$sql= "update `app_strategy` set pic='{$pic}',name='{$name}',content='{$content}',updated='{$updated}' where id={$id}";
+			$sql= "update `app_strategy` set {$pic} name='{$name}',content='{$content}',updated='{$updated}' where id={$id}";
 			$command->setText($sql)->execute();
 			$this->redirect('/admin/articlelist');
 			exit;
 		}
 
+		$pic = $pic[0];
 		foreach ($_POST as $key => $val) {
 			if($val!=""){
 				$params .= $key.",";

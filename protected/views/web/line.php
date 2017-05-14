@@ -35,6 +35,10 @@
                           <dt>旅行天数：</dt>
                           <dd><?php echo $data['days']; ?>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#999999">交通：</font><?php echo $data['traffic']; ?></dd>
                       	</dl>
+                        <dl class="ln-inf-item">
+                          <dt>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格：</dt>
+                          <dd>￥<?php echo $data['price']; ?>&nbsp;&nbsp;&nbsp;&nbsp;</dd>
+                        </dl>
                       	<dl class="ln-inf-item">
                           <dt>所属分类：</dt>
                           <dd>按主题分类 - <a id="top_guide" href="/tour/?list-1-32-1.html" target="_blank">特价游</a></dd>
@@ -123,14 +127,8 @@
     		</div>
     		<div class="detail-item-cont">
       			<div class="detail-field">
-                    <div class="detail-inf-txt">
-                    	<span style="color:#006600;"><strong>如确定参加线路后，请您提前预订行程，预订方式有：
-                    	</strong></span><br />
-						<strong><span style="color:#006600;">A、</span></strong>电话预订：直接拨打免费专线 400-880-7433，告知您的线路、人数、抵达车次/航班及日期；<br />
-						<strong><span style="color:#006600;">B、</span></strong>在线预订：直接点击在线预订按钮：旅游顾问，告知您的线路、人数、抵达时间等信息；<br />
-						票务预定： 我社可为游客代订往返各地的飞机票、火车票；<br />
-						增加景点： 此线路可随游客的需求增加其他的景点；<br />
-					</div>
+                <div class="detail-inf-txt">
+                <?php echo CHtml::decode($data['notice']); ?>    	
                 </div>    
             </div>
 		</div>

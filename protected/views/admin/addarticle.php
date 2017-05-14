@@ -8,7 +8,7 @@
 	<fieldset style="width:800px;padding-bottom:20px;">
 		<legend>信息发表</legend>
 		<ul id='form_ul'>
-			<input type="hidden" name="id" value="<?php echo !empty($data['id'])?$data['id']:'' ?>"/>
+			<input type="hidden" name="id" id="article_id" value="<?php echo !empty($data['id'])?$data['id']:'' ?>"/>
 			<li>标题:<input type="text" name="name" size='114' id="name" value="<?php echo !empty($data['name'])?$data['name']:'' ?>"/></li>
 			<li>
 				<ul>

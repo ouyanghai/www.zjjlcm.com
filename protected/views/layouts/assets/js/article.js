@@ -36,13 +36,26 @@ $(function(){
 
 		var ue = UE.getEditor("editor").hasContents();
 		if(!ue){content +="行程介绍 ";}
+		//增加线路时
+		if($("#line_id").val()==""){
+			var file = $("#pic").val();
+			if(file==''){alert("图片不能为空");}	
+		}
+		var include = $("#include").val();
+		include = include.replace(/\n/g,"<br/>").replace(/\s/g,"&nbsp;");
+		$("#include").val(include);
 
-		var file = $("#pic").val();
-		if(file==''){content += "图片 ";}
+		var uninclude = $("#uninclude").val();
+		uninclude = uninclude.replace(/\n/g,"<br/>").replace(/\s/g,"&nbsp;");
+		$("#uninclude").val(uninclude);
+		
+		var notice = $("#notice").val();
+		notice = notice.replace(/\n/g,"<br/>").replace(/\s/g,"&nbsp;");
+		$("#notice").val(notice);
 
 		content += '不能为空';
 		
-		if(!sub || title=='' || ue==false || file==''){
+		if(!sub || title=='' || ue==false){
 			alert(content);
 			event.preventDefault();
 			return false;
@@ -57,11 +70,13 @@ $(function(){
 		if(!ue){content +="文章内容 ";}
 
 		var file = $("#pic").val();
-		if(file==''){content += "图片 ";}
+		if($("#article_id").val()==""){
+			if(file==''){alert("图片不能为空");}	
+		}
 
 		content += '不能为空';
 
-		if(!sub || title=='' || ue==false || file==''){
+		if(!sub || title=='' || ue==false){
 			alert(content);
 			event.preventDefault();
 			return false;

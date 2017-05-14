@@ -26,16 +26,15 @@
 	position: absolute;
 	top:0px;
 	left:0px;
-	width:150px;
+	width:152px;
 	height:100%;
-	border-right:2px solid #981010;
 }
 #right{
 	position: absolute;
 	top:0px;
 	left:152px;
-	height:100%;
 	width:100%;
+	border-left:2px solid #981010;
 }
 #top_title{
 	float:left;
