@@ -1,6 +1,10 @@
 <?php
 class WebController extends TopController{
 	public $menu =array();
+	//客服固定超链接
+	public $connect_link = "http://byt.zoosnet.net/LR/Chatpre.aspx?id=BYT51845438&lng=cn";
+	//客服系统需要的js
+	public $link_js = "http://byt.zoosnet.net/JS/LsJS.aspx?siteid=BYT51845438&float=1&lng=cn";
 	public function init(){
 		header("content-type:text/html; charset=utf-8");
 		parent::init();

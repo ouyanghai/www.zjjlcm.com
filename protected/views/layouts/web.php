@@ -9,7 +9,7 @@
 <meta name="keywords" content="旅游网">
 <script src="<?php echo $this->assets['app']; ?>/js/jquery.min.js"></script>
 <script src="<?php echo $this->assets['app']; ?>/js/public.min.js"></script>
-<script language="javascript" src="http://byt.zoosnet.net/JS/LsJS.aspx?siteid=BYT51845438&float=1&lng=cn"></script>
+<script language="javascript" src="<?php echo $this->link_js; ?>"></script>
 <script type="text/javascript" src="<?php echo $this->assets['app']; ?>/js/shouye.js"></script>
 <link href="<?php echo $this->assets['app']; ?>/css/base.css" rel="stylesheet" type="text/css"/>
 <link href="<?php echo $this->assets['app']; ?>/css/index.css" rel="stylesheet" type="text/css">

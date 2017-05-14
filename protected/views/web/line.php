@@ -46,7 +46,7 @@
                     </div>
                   	<div class="price_box">
                       <div class="price">￥ <strong>电话咨询</strong></div>
-                      <button class="book_btn" onclick="window.open('http://byt.zoosnet.net/JS/LsJS.aspx?siteid=BYT51845438&float=1&lng=cn')" type="button">咨询/预订</button><br/>
+                      <button class="book_btn" onclick="window.open('<?php echo $this->connect_link; ?>')" type="button">咨询/预订</button><br/>
 					</div>
                   	<div class="ln-highlight">
                       	<p class="hh-tt"><strong>行程特色</strong></p>
@@ -69,7 +69,7 @@
 			  <li><a href="javascript:void(0);" to="344">注意事项</a></li>
 			  </ul>
 	          <div class="bk-s-right">
-	              <button class="bk-s-btn" type="button" onclick="window.open('http://byt.zoosnet.net/JS/LsJS.aspx?siteid=BYT51845438&float=1&lng=cn')">咨询/预订</button> </div>
+	              <button class="bk-s-btn" type="button" onclick="window.open('<?php echo $this->connect_link; ?>')">咨询/预订</button> </div>
 	    </div>
 	  
       	<div class="detail-cont-box">
@@ -139,7 +139,7 @@
 <script>
 $(function(){
 
-	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a href=\"http://byt.zoosnet.net/JS/LsJS.aspx?siteid=BYT51845438&float=1&lng=cn\" class=\"btn btn-kf\"></a><a href=\"tencent://Message/?Uin=1005725147&websiteName=/=&Menu=yes\" class=\"btn btn-qq\"></a><div class=\"btn btn-phone\"><div class=\"phone\">400-880-7433</div></div><div class=\"btn btn-top\"></div></div>";
+	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a href=\""+<?php echo $this->connect_link; ?>+"\" class=\"btn btn-kf\"></a><a href=\"tencent://Message/?Uin=1005725147&websiteName=/=&Menu=yes\" class=\"btn btn-qq\"></a><div class=\"btn btn-phone\"><div class=\"phone\">400-880-7433</div></div><div class=\"btn btn-top\"></div></div>";
 	$("#top").html(tophtml);
 	$("#izl_rmenu").each(function(){
 		$(this).find(".btn-wx").mouseenter(function(){
