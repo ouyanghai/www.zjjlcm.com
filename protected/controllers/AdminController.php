@@ -107,7 +107,7 @@ class AdminController extends Controller
 	public function actionDoModLine(){
 		$params = "";
 		foreach ($_POST as $key => $val) {
-			if($val!="" && $key!="id"){
+			if($key!="id"){
 				if($key=='introduce' ||$key=='include' ||$key=='uninclude' ||$key=='notice'){
 					$val = htmlspecialchars($val);
 				}
