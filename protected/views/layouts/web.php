@@ -22,7 +22,7 @@
 	        <div class="header-wp">
 	          	<div class="h-logo"> 
 	          		<!--<a href="宜昌富伦特国际旅行社有限公司" title="旅游网"></a> -->
-	          		<img width='120' height='50' src="<?php echo $this->assets['app'];?>/images/logo.jpg">
+	          		<img width='150' height='60' src="<?php echo $this->assets['app'];?>/images/logo.png">
 	          	</div>
 	            <div class="h-nav-box">
 	                <ul class="h-nav-list clearfix">

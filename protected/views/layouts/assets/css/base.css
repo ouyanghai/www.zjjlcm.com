@@ -84,7 +84,7 @@ textarea { resize: none;}
 .header-box{ background:url(http://www.yncits006.com/images/header-line.png) left top repeat-x; padding-top:4px; position:relative; z-index:10;}
 .header-in{ background:#FFF; width:100%;}
 .header-wp{ width:1180px; margin:0 auto; height:64px; position:relative; z-index:100;}
-.h-logo{ float:left; display:inline; width:160px; height:50px; margin:8px 10px 0 10px;}
+.h-logo{ float:left; display:inline; width:160px; height:50px;}
 .h-logo a{ display:block; background:url(../images/logo.jpg) no-repeat; width:160px; height:50px; outline:0; overflow:hidden;}
 .index-header .header-in {filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80)\0;*background: #FFF;*filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);  _background:#FFF;}
 :root .index-header .header-in {filter:none;background:rgba(255,255,255,0.8);}
