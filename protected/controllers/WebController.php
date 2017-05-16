@@ -13,7 +13,7 @@ class WebController extends TopController{
 			array("label"=>"首页","url"=>$this->createUrl('index'),"class"=>"current","id"=>""),
 			array("label"=>"特价游","class"=>"hongs","id"=>"","url"=>$this->createUrl('tejia')),
 			array("label"=>"全景游","class"=>"hongs","id"=>"","url"=>$this->createUrl('view')),
-			array("label"=>"景点图库","class"=>"","id"=>"","url"=>$this->createUrl('pic')),
+			//array("label"=>"景点图库","class"=>"","id"=>"","url"=>$this->createUrl('pic')),
 			array("label"=>"旅游攻略","class"=>"","id"=>"","url"=>$this->createUrl('strategy')),
 		);
 	}
