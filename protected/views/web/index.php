@@ -33,7 +33,7 @@
 	    <div class="index-container">
 	        <div class="index-con-tit">
 	            <div class="title-item">
-	                <h3>特价旅游 · 当季销量最高线路 · <a href="javascript:;"><font color="#FF0000">更多</font></a></h3>
+	                <h3>特价旅游 · 当季销量最高线路</h3>
 	                <em class="cornor-icon"></em>
 	            </div>
 	        </div>
@@ -41,37 +41,17 @@
 	            <div class="index-free-pro">
 	                <ul class="clearfix">
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415230333053305.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415230333053305.jpg" alt="石林|大理|丽江6日【淡季畅销短途家庭游】云南常年热销线路、4+5A景点全部覆盖、导游全程陪同让您旅途无忧！"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">石林|大理|丽江6日【淡季畅销短途家庭游】云南常年</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥1290</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+							<a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>0)); ?>" class="index-f-line r10 scale"><img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao1.jpg"/></a>
+						</li>
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415183555045504.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415183555045504.jpg" alt="昆明+石林+大理+丽江+西双版纳9天8晚双卧跟团+自由行超值休闲游"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">昆明+石林+大理+丽江+西双版纳9天8晚双卧跟团+自由</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥1780</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>1)); ?>" class="index-f-line r10 scale"><img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao2.jpg"/></a>    
+						</li>
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415195070327032.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415195070327032.jpg" alt="半纯玩游云南大理+丽江5天4晚跟团加自由行超值休闲游"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">半纯玩游云南大理+丽江5天4晚跟团加自由行超值休闲</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥1380</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>2)); ?>" class="index-f-line r10 scale"><img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao3.jpg"/></a>    
+						</li>
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415194333303330.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415194333303330.jpg" alt="<石林、西双版纳普洱森林公园+野象谷+大佛寺5晚4天游>休闲品质游"/>
-						            <div class="index-f-info">
-						                <h3 class="h3"><石林、西双版纳普洱森林公园+野象谷+大佛寺5晚4天</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥990</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>3)); ?>" class="index-f-line r10 scale"><img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao4.jpg"/></a>    
+						</li>
 					</ul>
 				</div>
 	        </div>
@@ -81,7 +61,7 @@
 	    <div class="index-container">
 	        <div class="index-con-tit">
 	            <div class="title-item">
-	                <h3>经典旅游 · 永远的经典回味 · <a href="javascript:;"><font color="#FF0000">更多</font></a></h3>
+	                <h3>经典旅游 · 永远的经典回味</h3>
 	                <em class="cornor-icon"></em>
 	            </div>
 	        </div>
@@ -89,37 +69,29 @@
 	            <div class="index-free-pro">
 	                <ul class="clearfix">
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415183726292629.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415183726292629.jpg" alt="昆明、大理、丽江、泸沽湖8天7晚(跟团+自由行)"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">昆明、大理、丽江、泸沽湖8天7晚(跟团+自由行)</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥1980</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>4)); ?>" class="index-f-line r10 scale">
+						        <img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao5.jpg"/>
+						            
+						    </a>    
+						</li>
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415191876307630.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415191876307630.jpg" alt="昆明、大理、丽江、香格里拉8天7晚(跟团+自由行)"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">昆明、大理、丽江、香格里拉8天7晚(跟团+自由行)</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥1880</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>5)); ?>" class="index-f-line r10 scale">
+						        <img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao6.jpg"/>
+						            
+						    </a>    
+						</li>
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415191444694469.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415191444694469.jpg" alt="昆明、大理、丽江、玉龙雪山6天5晚(跟团+自由行)"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">昆明、大理、丽江、玉龙雪山6天5晚(跟团+自由行)</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥1680</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>6)); ?>" class="index-f-line r10 scale">
+						        <img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao7.jpg"/>
+						            
+						    </a>    
+						</li>
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415191563546354.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415191563546354.jpg" alt="昆明+石林+大理+丽江+西双版纳9天8晚双卧跟团+自由行超值休闲游"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">昆明+石林+大理+丽江+西双版纳9天8晚双卧跟团+自由</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥1480</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>7)); ?>" class="index-f-line r10 scale">
+						        <img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao8.jpg"/>
+						           
+						    </a> 
+					    </li>
 					</ul>
 				</div>
 	        </div>
@@ -129,7 +101,7 @@
 	    <div class="index-container">
 	        <div class="index-con-tit">
 	            <div class="title-item">
-	                <h3>纯玩旅游· 给最完美的你 · <a href="javascript:;"><font color="#FF0000">更多</font></a></h3>
+	                <h3>纯玩旅游· 给最完美的你</h3>
 	                <em class="cornor-icon"></em>
 	            </div>
 	        </div>
@@ -137,92 +109,32 @@
 	            <div class="index-free-pro">
 	                <ul class="clearfix">
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415200466426642.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415200466426642.jpg" alt="高品质纯玩：石林九乡大理丽江六日游--绝对纯玩--住宿五星--让您感受最美的云南！！！"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">高品质纯玩：石林九乡大理丽江六日游--绝对纯玩--</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥3180</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("article",array("line"=>0)); ?>" class="index-f-line r10 scale">
+						        <img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao9.jpg"/>
+						    </a>    
+						</li>
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415200572257225.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415200572257225.jpg" alt="高品质纯玩：大理丽江香格里拉泸沽湖九日游--绝对纯玩--住宿五星--让您感受最美的云南！！！"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">高品质纯玩：大理丽江香格里拉泸沽湖九日游--绝对</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥3980</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("article",array("line"=>1)); ?>" class="index-f-line r10 scale">
+						        <img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao10.jpg"/>
+						    </a>    
+						</li>
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415201126752675.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415201126752675.jpg" alt="休闲纯玩：大理丽江五日游--休闲纯玩--短线经典--值得拥有"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">休闲纯玩：大理丽江五日游--休闲纯玩--短线经典--</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥1880</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("article",array("line"=>2)); ?>" class="index-f-line r10 scale">
+						        <img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao11.jpg"/>
+						    </a>    
+						</li>
 						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415202325782578.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415202325782578.jpg" alt="休闲纯玩：大理丽江香格里拉七日游--风情大理--温柔丽江--神秘香格里拉"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">休闲纯玩：大理丽江香格里拉七日游--风情大理--温</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥2380</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
+						    <a target="_blank" href="<?php echo $this->createUrl("article",array("line"=>3)); ?>" class="index-f-line r10 scale">
+						        <img class="lazy" src="<?php echo $this->assets['app']; ?>/images/dao12.jpg"/>
+						    </a>    
+						</li>
 					</ul>
 				</div>
 	        </div>
 	    </div>
 	    <!-- index-container end -->
 			
-		<!-- index-container start -->
-	    <div class="index-container">
-	        <div class="index-con-tit">
-	            <div class="title-item">
-	                <h3>全景游 · 带你游遍云南 · <a href="javascript:;"><font color="#FF0000">更多</font></a></h3>
-	                <em class="cornor-icon"></em>            
-	            </div>
-	        </div>
-	        <div class="index-content">
-	            <div class="index-free-pro">
-	                <ul class="clearfix">
-						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415224989638963.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415224989638963.jpg" alt="昆明、石林、大理、丽江 香格里拉 泸沽湖10天9晚休闲全景游"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">昆明、石林、大理、丽江 香格里拉 泸沽湖10天9晚休</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥2380</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
-						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415225334143414.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415225334143414.jpg" alt="石林、大理、丽江、香格里拉、泸沽湖、西双版纳14天13晚(跟团+自由行)"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">石林、大理、丽江、香格里拉、泸沽湖、西双版纳14</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥2480</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
-						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415225157815781.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415225157815781.jpg" alt="石林、大理、丽江、香格里拉、西双版纳11天10晚休闲全景游"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">石林、大理、丽江、香格里拉、西双版纳11天10晚休</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥2280</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
-						<li>
-						        <a href="javascript:;" class="index-f-line r10 scale">
-						            <img class="lazy" src="http://www.yncits006.com/upfiles/image/20160415/20160415191876307630.jpg" original="http://www.yncits006.com/upfiles/image/20160415/20160415191876307630.jpg" alt="石林、大理、丽江、泸沽湖、西双版纳11天10晚休闲全景游"/>
-						            <div class="index-f-info">
-						                <h3 class="h3">石林、大理、丽江、泸沽湖、西双版纳11天10晚休闲</h3>
-						                <p class="p3"><span class="index-price"><em class="price">￥2280</em> <i>起/人</i></span></p>
-						                <i class="index-f-trigel"></i>            </div>
-						        </a>    </li>
-					</ul>
-				</div>
-	        </div>
-	    </div>
-	    <!-- index-container end -->
-
+		
 	    <!-- index-container start -->
 	    <div class="index-container">
 	    	<div class="index-con-tit">
@@ -246,7 +158,7 @@
 				            <div class="u-item2-left">
 				                <div class="u-txt">
 				                    <div class="u-txt-box">
-				                        <p class="u-word">无论您什么时候来，也无论您是多少人，即使是一人我社也可以帮您安排云南的散客拼团或独立成团或自助游；</p>
+				                        <p class="u-word">无论您什么时候来，也无论您是多少人，即使是一人我社也可以帮您安排张家界的散客拼团或独立成团或自助游；</p>
 				                    </div>
 				                    <span class="mytcDown"></span>                </div>
 				                <div class="u-img"><img class="lazy" src="http://www.yncits006.com/images/zytd.jpg" original="http://www.yncits006.com/images/zytd.jpg"/></div>

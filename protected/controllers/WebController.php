@@ -39,10 +39,23 @@ class WebController extends TopController{
 	}
 
 	public function actionLine(){
-		$id = $_GET['id'];
 		$command = Yii::app()->db->createCommand();
-		$sql = "select * from `app_line` where id={$id}";
-		$res = $command->setText($sql)->queryRow();
+		$sql = "";
+		$res = "";
+		if(isset($_GET['line'])){
+			$line = intval($_GET['line']);
+			$sql = "select * from `app_line` limit {$line},1";	
+			$res = $command->setText($sql)->queryRow();
+			if(empty($res)){
+				$sql = "select * from `app_line` limit 0,1";	
+				$res = $command->setText($sql)->queryRow();
+			}
+		}else if(!empty($_GET['id'])){
+			$id = intval($_GET['id']);
+			$sql = "select * from `app_line` where id={$id}";	
+			$res = $command->setText($sql)->queryRow();
+		}
+		
 		$this->render("line",array('data'=>$res));
 	}
 	
@@ -97,12 +110,23 @@ class WebController extends TopController{
 	}
 
 	public function actionArticle(){
-		$id = !empty($_GET['id']) && is_numeric($_GET['id']) && $_GET['id']>0 ? $_GET['id'] : 1;
 		$command = Yii::app()->db->createCommand();
-		$sql = "select * from `app_strategy` where id={$id}";
-		$result = $command->setText($sql)->queryRow();
-		$pid = $id-1;
-		$nid = $id+1;
+		$result = "";
+		if(isset($_GET['line'])){
+			$line = $_GET['line'];
+			$result = $command->setText("select * from `app_strategy` limit {$line},1")->queryRow();	
+			if(empty($result)){
+				$result = $command->setText("select * from `app_strategy` limit 0,1")->queryRow();	
+			}
+		}
+		if(!empty($_GET['id'])){
+			$id = !empty($_GET['id']) && is_numeric($_GET['id']) && $_GET['id']>0 ? $_GET['id'] : 1;
+			$sql = "select * from `app_strategy` where id={$id}";	
+			$result = $command->setText($sql)->queryRow();	
+		}
+		
+		$pid = $result['id']-1;
+		$nid = $result['id']+1;
 		$prev = $command->setText("select id,name from `app_strategy` where id={$pid}")->queryRow();
 		$next = $command->setText("select id,name from `app_strategy` where id={$nid}")->queryRow();
 		if(empty($prev)){
