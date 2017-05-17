@@ -5,13 +5,13 @@
 		<div class="index-banner-list">
 	    	<ul id="pic_list" class="banner-pic">
 				<li>
-			        <a href="<?php echo $this->createUrl("tejia"); ?>" target="_blank"><img src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499102992.jpg" ></a>
+			        <a href="<?php echo $this->createUrl("tejia"); ?>" target="_blank"><img src="http://www.ouyanghai.com.cn/images/banner1.jpg" ></a>
 			    </li> <li style="display:none;">
-			        <a href="<?php echo $this->createUrl("view"); ?>" target="_blank"><img src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499103307.jpg" ></a>
+			        <a href="<?php echo $this->createUrl("view"); ?>" target="_blank"><img src="http://www.ouyanghai.com.cn/images/banner2.jpg" ></a>
 			    </li> <li style="display:none;">
-			        <a href="<?php echo $this->createUrl("pic"); ?>" target="_blank"><img src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499103661.jpg"/></a>
+			        <a href="<?php echo $this->createUrl("pic"); ?>" target="_blank"><img src="http://www.ouyanghai.com.cn/images/banner3.jpg"/></a>
 			    </li><li style="display:none;">
-			        <a href="<?php echo $this->createUrl("strategy"); ?>" target="_blank"><img src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/14949910396.jpg"/></a>
+			        <a href="<?php echo $this->createUrl("strategy"); ?>" target="_blank"><img src="http://www.ouyanghai.com.cn/images/banner4.jpg"/></a>
 			   
 			</ul>
 			<ol id="control_list" class="flex-control-nav">
@@ -26,7 +26,7 @@
 	<div class="index-container-box">
 		<!-- index-container start -->
 	    <div class="index-container" style="margin-top:5px;">
-	        <img width='1200' src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499102944.jpg">
+	        <img width='1200' src="http://www.ouyanghai.com.cn/images/b_banner.jpg">
 	    </div>
 	    <!-- index-container end -->
 	    <!-- index-container start -->
@@ -41,16 +41,16 @@
 	            <div class="index-free-pro">
 	                <ul class="clearfix">
 						<li>
-							<a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>0)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499104063.jpg"/></a>
+							<a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>0)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao1.jpg"/></a>
 						</li>
 						<li>
-						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>1)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499104432.jpg"/></a>    
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>1)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao2.jpg"/></a>    
 						</li>
 						<li>
-						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>2)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499104477.jpg"/></a>    
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>2)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao3.jpg"/></a>    
 						</li>
 						<li>
-						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>3)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499104649.jpg"/></a>    
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>3)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao4.jpg"/></a>    
 						</li>
 					</ul>
 				</div>
@@ -70,25 +70,25 @@
 	                <ul class="clearfix">
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>4)); ?>" class="index-f-line r10 scale">
-						        <img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499104674.jpg"/>
+						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao5.jpg"/>
 						            
 						    </a>    
 						</li>
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>5)); ?>" class="index-f-line r10 scale">
-						        <img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/14949910492.jpg"/>
+						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao6.jpg"/>
 						            
 						    </a>    
 						</li>
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>6)); ?>" class="index-f-line r10 scale">
-						        <img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499105123.jpg"/>
+						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao7.jpg"/>
 						            
 						    </a>    
 						</li>
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>7)); ?>" class="index-f-line r10 scale">
-						        <img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499105324.jpg"/>
+						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao8.jpg"/>
 						           
 						    </a> 
 					    </li>
@@ -110,22 +110,22 @@
 	                <ul class="clearfix">
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("article",array("line"=>0)); ?>" class="index-f-line r10 scale">
-						        <img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499105362.jpg"/>
+						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao9.jpg"/>
 						    </a>    
 						</li>
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("article",array("line"=>1)); ?>" class="index-f-line r10 scale">
-						        <img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499105399.jpg"/>
+						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao10.jpg"/>
 						    </a>    
 						</li>
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("article",array("line"=>2)); ?>" class="index-f-line r10 scale">
-						        <img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499105527.jpg"/>
+						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao11.jpg"/>
 						    </a>    
 						</li>
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("article",array("line"=>3)); ?>" class="index-f-line r10 scale">
-						        <img class="lazy" src="http://cglmn.img48.wal8.com/img48/570193_20170517111541/149499105751.jpg"/>
+						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao12.jpg"/>
 						    </a>    
 						</li>
 					</ul>
@@ -163,7 +163,7 @@
 				                    <span class="mytcDown"></span>                </div>
 				                <div class="u-img"><img class="lazy" src="http://www.yncits006.com/images/zytd.jpg" original="http://www.yncits006.com/images/zytd.jpg"/></div>
 				            </div>
-				            <div class="u-img u-item2-img"><img class="lazy" src="http://www.yncits006.com/images/jqhz.jpg" original="http://www.yncits006.com/images/jqhz.jpg"/></div>
+				            <div class="u-img u-item2-img"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao13.jpg"/></div>
 				        </li>
 				        <li class="u-item-3">
 				            <div class="u-txt">
