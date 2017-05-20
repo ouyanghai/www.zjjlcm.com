@@ -178,6 +178,7 @@ class AdminController extends Controller
 			if($pic==false){
 				$pic = "";
 			}else{
+				$pic = $pic[0];
 				$pic = "pic='{$pic}',";
 			}
 			$content = htmlspecialchars($_POST['content']);
