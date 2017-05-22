@@ -4,9 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="renderer" content="webkit">
-<title>旅游网</title>
-<meta name="description" content="旅游网">
-<meta name="keywords" content="旅游网">
+<title>张家界驴参谋旅游网/张家界旅游/张家界自由行</title>
+<meta name="description" content="张家界旅游,张家界驴参谋,张家界自助游,张家界自由行,张家界旅游攻略">
+<meta name="keywords" content="张家界旅游,张家界驴参谋,张家界自助游,张家界自由行,张家界旅游攻略">
 <script src="<?php echo $this->assets['app']; ?>/js/jquery.min.js"></script>
 <script src="<?php echo $this->assets['app']; ?>/js/public.min.js"></script>
 <script language="javascript" src="<?php echo $this->link_js; ?>"></script>
