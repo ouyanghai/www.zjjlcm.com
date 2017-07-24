@@ -51,27 +51,9 @@
 
 
 <div id="top"></div>
-<!-- Footer End-->
-<!--
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td height="50">
-	
-		<div class="bottomcut">
-		<ul>
-		<li class="a1"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"></a></li>
-		<li class="a2"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"></a></li>
-		</ul>
-		</div>
 
-	</td>
-	  </tr>
-</table>
--->
 <div id ="zzjs_net" style="display:none;">请用手机扫描</div>
-<!--
-<div id="www_zzjs_net" style="z-index:9999;"><a href="http://pht.zoosnet.net/LR/Chatpre.aspx?id=PHT93937523&lng=cn" target="_blank"><img src="http://www.yncits006.com/qqzx.gif" border="0" /></a></div>
--->
+
 <script type="text/javascript" src="<?php echo $this->assets['app'] ?>/js/shouye_bottom.js"></script>
 <script type="text/javascript">
 	$("#child_menu_li").mouseover(function(){

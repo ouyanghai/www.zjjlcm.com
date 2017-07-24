@@ -41,16 +41,41 @@
 	            <div class="index-free-pro">
 	                <ul class="clearfix">
 						<li>
-							<a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>0)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao1.jpg"/></a>
+							<a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>0)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao1.jpg"/>
+								<div class="index-f-info">
+					                <h3 class="h3">张家界国家森林公园两天一晚</h3>
+					                <p class="p3"><span class="index-price"><em class="price">￥520元起</em></span></p>
+					                <i class="index-f-trigel"></i>            
+					            </div>
+							</a>
 						</li>
 						<li>
-						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>1)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao2.jpg"/></a>    
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>1)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao2.jpg"/>
+						    	<div class="index-f-info">
+					                <h3 class="h3">张家界国家森林公园，天门山玻璃栈道三天两晚</h3>
+					                <p class="p3"><span class="index-price"><em class="price">￥880元起</em></span></p>
+					                <i class="index-f-trigel"></i>            
+					            </div>
+						    </a>    
 						</li>
 						<li>
-						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>2)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao3.jpg"/></a>    
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>2)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao3.jpg"/>
+						    	<div class="index-f-info">
+					                <h3 class="h3">张家界国家森林公园，玻璃栈道，凤凰古城四天三晚
+</h3>
+					                <p class="p3"><span class="index-price"><em class="price">￥1220元起</em></span></p>
+					                <i class="index-f-trigel"></i>            
+					            </div>
+						    </a>    
 						</li>
 						<li>
-						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>3)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao4.jpg"/></a>    
+						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>3)); ?>" class="index-f-line r10 scale"><img class="lazy" src="http://www.ouyanghai.com.cn/images/dao4.jpg"/>
+						    	<div class="index-f-info">
+					                <h3 class="h3">张家界国家森林公园，凤凰古城三天两晚</h3>
+					                <p class="p3"><span class="index-price"><em class="price">￥920元起</em></span></p>
+					                <i class="index-f-trigel"></i>            
+					            </div>
+						    </a>    
 						</li>
 					</ul>
 				</div>
@@ -71,25 +96,41 @@
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>4)); ?>" class="index-f-line r10 scale">
 						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao5.jpg"/>
-						            
+						         <div class="index-f-info">
+					                <h3 class="h3">张家界大峡谷玻璃桥一日游</h3>
+					                <p class="p3"><span class="index-price"><em class="price">￥360元起</em></span></p>
+					                <i class="index-f-trigel"></i>            
+					            </div>   
 						    </a>    
 						</li>
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>5)); ?>" class="index-f-line r10 scale">
 						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao6.jpg"/>
-						            
+						        <div class="index-f-info">
+					                <h3 class="h3">张家界国家森林公园，张家界大峡谷玻璃桥三天两晚</h3>
+					                <p class="p3"><span class="index-price"><em class="price">￥880元起</em></span></p>
+					                <i class="index-f-trigel"></i>            
+					            </div>    
 						    </a>    
 						</li>
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>6)); ?>" class="index-f-line r10 scale">
 						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao7.jpg"/>
-						            
+						        <div class="index-f-info">
+					                <h3 class="h3">张家界国家森林公园，玻璃桥，玻璃栈道四天三晚</h3>
+					                <p class="p3"><span class="index-price"><em class="price">￥1180元起</em></span></p>
+					                <i class="index-f-trigel"></i>            
+					            </div>    
 						    </a>    
 						</li>
 						<li>
 						    <a target="_blank" href="<?php echo $this->createUrl("line",array("line"=>7)); ?>" class="index-f-line r10 scale">
 						        <img class="lazy" src="http://www.ouyanghai.com.cn/images/dao8.jpg"/>
-						           
+						        <div class="index-f-info">
+					                <h3 class="h3">张家界国家森林公园，玻璃桥，玻璃栈道，凤凰古城五天四晚</h3>
+					                <p class="p3"><span class="index-price"><em class="price">￥1580元起</em></span></p>
+					                <i class="index-f-trigel"></i>            
+					            </div>   
 						    </a> 
 					    </li>
 					</ul>
