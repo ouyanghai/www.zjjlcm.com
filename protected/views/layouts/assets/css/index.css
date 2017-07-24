@@ -770,8 +770,14 @@
 .izl-rmenu .btn-wx:hover{background-color:#58a81c;}
 .izl-rmenu .btn-wx .pic{position:absolute; left:-160px; top:0px; display:none;width:160px;height:160px;}
 .izl-rmenu .btn-phone{background:url(http://www.yncits006.com/images/r_phone.png) 0px 0px no-repeat; background-color:#fbb01f;}
+
+.izl-rmenu .btn-weixin{background:url("../images/weixin_kefu.png") 0px 0px no-repeat; background-color:#fbb01f;}
+.izl-rmenu .btn-weixin:hover{background-color:#ff811b;}
+.izl-rmenu .weixin{background:url("../images/weixin.png") 0px 0px no-repeat;background-color:#ff811b; position:absolute; width:75px; left:-75px; top:0px; line-height:73px; color:#FFF; font-size:18px; text-align:center; display:none;}
+
 .izl-rmenu .btn-phone:hover{background-color:#ff811b;}
 .izl-rmenu .btn-phone .phone{background-color:#ff811b; position:absolute; width:160px; left:-160px; top:0px; line-height:73px; color:#FFF; font-size:18px; text-align:center; display:none;}
+
 .izl-rmenu .btn-top{background:url(http://www.yncits006.com/images/r_top.png) 0px 0px no-repeat; background-color:#666666; display:none;}
 .izl-rmenu .btn-top:hover{background-color:#444;}
 #www_zzjs_net{width:220px;height:130px;text-align:center;}

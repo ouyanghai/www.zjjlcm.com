@@ -60,7 +60,7 @@
 <script>
 $(function(){
 
-	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a href=\""+<?php echo $this->connect_link; ?>+"\" class=\"btn btn-kf\"></a><a href=\"tencent://Message/?Uin=1005725147&websiteName=/=&Menu=yes\" class=\"btn btn-qq\"></a><div class=\"btn btn-phone\"><div class=\"phone\">400-880-7433</div></div><div class=\"btn btn-top\"></div></div>";
+	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a href=\""+<?php echo $this->connect_link; ?>+"\" class=\"btn btn-kf\"></a><a href=\"tencent://Message/?Uin=1005725147&websiteName=/=&Menu=yes\" class=\"btn btn-qq\"></a><div class=\"btn btn-phone\"><div class=\"phone\">400-880-7433</div></div><div class=\"btn btn-weixin\"><div class=\"weixin\">i</div></div><div class=\"btn btn-top\"></div></div>";
 	$("#top").html(tophtml);
 	$("#izl_rmenu").each(function(){
 		$(this).find(".btn-wx").mouseenter(function(){
@@ -75,6 +75,13 @@ $(function(){
 		$(this).find(".btn-phone").mouseleave(function(){
 			$(this).find(".phone").fadeOut("fast");
 		});
+		$(this).find(".btn-weixin").mouseenter(function(){
+			$(this).find(".weixin").fadeIn("fast");
+		});
+		$(this).find(".btn-weixin").mouseleave(function(){
+			$(this).find(".weixin").fadeOut("fast");
+		});
+		
 		$(this).find(".btn-top").click(function(){
 			$("html, body").animate({
 				"scroll-top":0
