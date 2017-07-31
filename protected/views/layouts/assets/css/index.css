@@ -773,7 +773,7 @@
 
 .izl-rmenu .btn-weixin{background:url("../images/weixin_kefu.png") 0px 0px no-repeat; background-color:#fbb01f;}
 .izl-rmenu .btn-weixin:hover{background-color:#ff811b;}
-.izl-rmenu .weixin{background:url("../images/weixin.png") 0px 0px no-repeat;background-color:#ff811b; position:absolute; width:75px; left:-75px; top:0px; line-height:73px; color:#FFF; font-size:18px; text-align:center; display:none;}
+.izl-rmenu .weixin{background:url("../images/weixin.png") 0px 0px no-repeat;background-color:#ff811b; position:absolute; width:150px; left:-150px; top:-75px; line-height:150px; color:#FFF; font-size:18px; text-align:center; display:none;}
 
 .izl-rmenu .btn-phone:hover{background-color:#ff811b;}
 .izl-rmenu .btn-phone .phone{background-color:#ff811b; position:absolute; width:160px; left:-160px; top:0px; line-height:73px; color:#FFF; font-size:18px; text-align:center; display:none;}
