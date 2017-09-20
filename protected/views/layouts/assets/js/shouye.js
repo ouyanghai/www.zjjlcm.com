@@ -1,4 +1,4 @@
-/*
+
 var LiveAutoInvite0='您好，来自%IP%的朋友';
 var LiveAutoInvite1='来自首页的对话';
 var LiveAutoInvite2='网站商务通 主要功能：<BR>1、主动邀请<BR>2、即时沟通';
@@ -6,7 +6,7 @@ var LrinviteTimeout=120;
 var LR_invite_m=1;
 var LrinviteTimeout=3;
 var LR_next_invite_seconds = 50; //10秒后再次显示自动邀请
-*/
+
 function showid(idname){
 	var isIE = (document.all) ? true : false;
 	var isIE6 = isIE && ([/MSIE (\d)\.0/i.exec(navigator.userAgent)][0][1] == 6);
